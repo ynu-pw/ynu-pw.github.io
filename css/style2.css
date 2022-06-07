@@ -1,0 +1,335 @@
+@font-face {
+    font-family: 'GmarketSansLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'LeferiPoint-BlackA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-BlackA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background: #f9f8ff;
+}
+#main {
+    width: 100%;
+    height: 100%;
+    
+    background-color: #5c42e4;
+    background-image: url(../images/portfolio.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#rec {
+    position: relative;
+    width: 930px; height: 550px;
+    top: 250px; left: 400px;
+    background: #251a5c;
+    border-radius: 30px;
+}
+h1 {
+    font-size: 7.1em;
+    font-family: 'LeferiPoint-BlackA';
+    color: #fff;
+    position: absolute;
+    top: -125px; left: -140px;
+    line-height: 130px;
+}
+#text {
+    position: absolute;
+    top: 130px; left: -122px;
+}
+#circle1 {
+    position: absolute;
+    top: -100px; left: 576px;
+    width: 310px; height: 310px;
+    background: #00e7d7;
+    opacity: 22%;
+    border-radius: 50%;
+}
+#circle2 {
+    position: absolute;
+    top: 32px; left: 733px;
+    width: 420px; height: 420px;
+    background: #e6e6e6;
+    opacity: 30%;
+    border-radius: 50%;
+}
+.page {
+    height: 100%;
+    position: relative;
+}
+.pg_box {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50px;
+    width: 1620px; height: 680px;
+    box-shadow: 5px 29px 35px 8px rgba(0,0,0,0.18);
+    border: 18px solid #ffffff;
+    background: #f9f8ff;
+}
+.pro {
+    position: relative;
+}
+.pro > ul > li {
+    position: absolute;
+    float: left;
+    height: 427px;
+    top: 126px; left: 295px;
+}
+#profile {
+    box-sizing: border-box;
+    left: 810px;
+}
+#profile > ul > li {
+    margin-bottom: 10px;
+}
+#info > ul > li:not(:first-child) {
+    font-family: 'GmarketSansLight';
+    color: #5c42e4;
+    font-size: 18px;
+    line-height: 28px;
+}
+#info > ul > li:first-child {
+    font-family: 'GmarketSansMedium';
+    font-size: 50px;
+    color: #5c42e4;
+}
+#edu > ul > li:not(:first-child) {
+    font-family: 'GmarketSansLight';
+    color: #5c42e4;
+    font-size: 18px;
+    line-height: 28px;
+}
+#edu > ul > li:first-child {
+    font-family: 'GmarketSansMedium';
+    font-size: 20px;
+    line-height: 30px;
+    color: #5c42e4;
+}
+#skill > div > img {
+    padding-right: 40px;
+    margin-bottom: 18px;
+}
+#skill > div {
+    float: left;
+}
+#skill > div:first-child {
+    width: 85px;
+    margin-right: 80px;
+}
+#skill > div:nth-child(2) {
+    width: 130px;
+    margin-right: 80px;
+}
+#skill > div > p {
+    font-family: 'GmarketSansMedium';
+    font-size: 20px;
+    line-height: 30px;
+    color: #5c42e4;
+    margin-bottom: 3px;
+}
+#sk_text {
+    font-family: 'GmarketSansLight';
+    color: #5c42e4;
+    font-size: 18px;
+    line-height: 38px;
+}
+#container {
+    width: 100%; 
+    height: 100%;
+}
+#container > section {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.sec_box {
+    position: relative;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1350px; height: 650px;
+    border: 18px solid #fff;
+    background: #f9f8ff;
+    box-shadow: 5px 29px 35px 8px rgba(0,0,0,0.18);
+    border-radius: 50px;
+    /* z-index: 999; */
+}
+.sec_box > h2 {
+    font-family: 'GmarketSansMedium';
+    position: absolute;
+    top: -93px; left: -135px;
+    font-size: 50px;
+    color: #a797f9;
+}
+.sec_box > div {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+}
+.mac > img {
+    position: relative;
+    width: 1000px; height: 570px;
+}
+#brsg {
+    width: 780px; height: 463px;
+    position: absolute;
+    top: 24px; left: 110px;
+    background-image: url(../images/brsg03_03.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center top;
+    transition: background-position 5s;
+}
+#gwang {
+    width: 780px; height: 463px;
+    position: absolute;
+    top: 24px; left: 110px;
+    background-image: url(../images/gwangyang.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center top;
+    transition: background-position 5s;
+}
+#pascu {
+    width: 780px; height: 463px;
+    position: absolute;
+    top: 24px; left: 110px;
+    background-image: url(../images/pascucci.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center top;
+    transition: background-position 5s;
+}
+#brsg:hover {
+    background-position: center bottom;
+}
+#gwang:hover {
+    background-position: center bottom;
+}
+#pascu:hover {
+    background-position: center bottom;
+}
+
+#graphic {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+#gra_box > h2 {
+    font-family: 'GmarketSansMedium';
+    position: absolute;
+    top: -70px; left: -280px;
+    font-size: 50px;
+    color: #a797f9;
+}
+#gra_box {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1042px;
+    /* height: 721px; */
+    /* overflow: hidden; */
+}
+#artwork {
+    width: 300%;
+    position: relative;
+    left: 0;
+}
+#artwork > li {
+    float: left;
+    width: 33%;
+}
+#artwork::after {content: ""; display: block; clear: both;}
+#artwork > li > img {
+    display: block;
+    width: 100%;
+}
+#prev, #next {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 50%;
+    
+    transform: translateY(-50%);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    z-index: 9999;
+}
+#prev {
+    left: 50px;
+    background: url(../images/left_icon.png) no-repeat center;
+}
+#next {
+    right: 50px;
+    background: url(../images/right_icon.png) no-repeat center;
+}
+button > span {
+    display: none;
+}
+#prev:hover {
+    background: url(../images/images/hover_left.png);
+}
+#next:hover {
+    background: url(../images/images/hover_right.png);
+}
+.pg_box > h2 {
+    font-family: 'GmarketSansMedium';
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%); 
+    font-size: 50px;
+    color: #5c42e4;
+}
+
+.popup {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    width: 1200px; height: 500px;
+    border: 18px solid #fff;
+    background: #f9f8ff;
+    border-radius: 50px;
+    box-shadow: 5px 29px 35px 8px rgba(0,0,0,0.18);
+}
+#brsg_modal {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(41, 30, 103, 0.75);
+    display: none;
+}
+#gwang_modal {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(41, 30, 103, 0.75);
+    display: none;
+}
+#pascu_modal {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(41, 30, 103, 0.75);
+    display: none;
+}

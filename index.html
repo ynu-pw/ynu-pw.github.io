@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>parkyeonwoo - portfolio page</title>
+    <!-- css -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script/script.js"></script>
+  </head>
+<body>
+  <nav class="navbar">
+    <ul id="nav_list">
+        <li>
+            <a href="#main_panel" class="dot active" data-scroll="main_panel">
+                <span>main</span>
+            </a>
+        </li>
+        <li>
+            <a href="#profile_panel" class="dot" data-scroll="profile_panel">
+                <span>profile</span>
+            </a>
+        </li>
+        <li>
+            <a href="#web1_panel" class="dot" data-scroll="web1_panel">
+                <span>web1</span>
+            </a>
+        </li>
+        <li>
+            <a href="#web2_panel" class="dot" data-scroll="web2_panel">
+                <span>web2</span>
+            </a>
+        </li>
+        <li>
+            <a href="#web3_panel" class="dot" data-scroll="web3_panel">
+                <span>web3</span>
+            </a>
+        </li>
+        <li>
+            <a href="#graphic_panel" class="dot" data-scroll="graphic_panel">
+                <span>graphic</span>
+            </a>
+        </li>
+        <li>
+            <a href="#end_panel" class="dot" data-scroll="end_panel">
+                <span>end</span>
+            </a>
+        </li>
+    </ul>
+</nav>
+
+  <section class="panel panel1" id="main_panel">
+    <div id="port">
+    </div>
+    <div id="rec">
+        <h1>PARK <br>
+            YEONWOO</h1>
+        <div id="text"><img src="images/parkyeonwoo_03.png" alt="text"></div>
+        <div id="circle1"></div>
+        <div id="circle2"></div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="panel page" id="profile_panel">
+    <div class="pg_box pro">
+      <ul>
+        <li><img src="images/profile.png" alt="profile"></li>
+        <li id="profile">
+            <ul>
+              <li id="info">
+                <h2>박연우</h2>
+                <ul class="pro_text">
+                  <li>1996.11.21</li>
+                  <li>ynu_wp@naver.com</li>
+                  <li>010-6710-0318</li>
+                </ul>
+              </li>
+              <li id="edu">
+                <h3>Education</h3>
+                <ul class="pro_text">
+                  <li>광주예술고 디자인전공 졸업</li>
+                  <li>조선대학교 미술대학 가구디자인전공 졸업</li>
+                </ul>
+              </li>
+              <li id="skill">
+                <ul>
+                  <h3>Design</h3>
+                  <li><img src="images/ps.png" alt="photoshop"></li>
+                  <li><img src="images/ill.png" alt="illust"></li>
+                  <li><img src="images/xd.png" alt="xd"></li>
+                </ul>
+                <ul class="pro_text">
+                  <h3>Publishing</h3>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>jQuery</li>
+                </ul>
+                <ul>
+                  <h3>Else</h3>
+                  <li><img src="images/cad.png" alt="cad"></li>
+                  <li><img src="images/rhino.png" alt="rhino"></li>
+                </ul>
+              </li>
+            </ul>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <div id="container">
+    <section class="panel" id="web1_panel">
+      <div class="sec_box">
+        <h2>[바른생각]_Renewal</h2>
+        <div class="mac brsg_mac"><img src="images/mac.png" alt="mac">
+          <div id="brsg"></div>
+        </div>
+      </div>
+      <div class="modal brsg_modal">
+        <div class="popup">
+          <dl>
+            <dt>[바른생각]</dt>
+            <dd>바른생각 홈페이지 리뉴얼</dd>
+            <dd>가독성과 홍보성 극대화</dd>
+            <dd>궁금증과 호기심 유발 마케팅 효과</dd>
+          </dl>
+          <a href="#">사이트 바로가기</a>
+        </div>
+      </div>
+    </section>
+    <section class="panel" id="web2_panel">
+      <div class="sec_box">
+        <h2>[광양시청]_Renewal</h2>
+        <div class="mac"><img src="images/mac.png" alt="mac">
+          <div id="gwang"></div>
+        </div>
+      </div>
+      <div class="modal gwang_modal">
+        <div class="popup">
+          <dl>
+            <dt>[광양시청]</dt>
+            <dd>광양시청 홈페이지 리뉴얼</dd>
+            <dd>확실한 정보전달</dd>
+            <dd>시민참여 및 홍보성</dd>
+          </dl>
+          <a href="#">사이트 바로가기</a>
+        </div>
+      </div>
+    </section>
+    <section class="panel" id="web3_panel">
+      <div class="sec_box">
+        <h2>[파스쿠찌]_Renewal</h2>
+        <div class="mac"><img src="images/mac.png" alt="mac">
+          <div id="pascu"></div>
+        </div>
+      </div>
+      <div class="modal pascu_modal">
+        <div class="popup">
+          <dl>
+            <dt>[파스쿠찌]</dt>
+            <dd>카페 파스쿠찌 홈페이지 리뉴얼</dd>
+            <dd>MD 상품 마케팅</dd>
+            <dd>가맹점 정보전달</dd>
+          </dl>
+          <a href="#">사이트 바로가기</a>
+        </div>
+      </div>
+    </section>
+    <section class="panel" id="graphic_panel">
+      <div id="graphic">
+        <h2>GRAPHIC</h2>
+        <ul id="artwork">
+          <li><img src="images/ikey_18.png" alt="ikey"></li>
+          <li><img src="images/serum_2.jpg" alt="serum"></li>
+          <li><img src="images/film2.jpg" alt="film"></li>
+          <li><img src="images/ticket_01.jpg" alt="ticket"></li>
+        </ul>
+      </div>
+      <button id="prev"><span>Previous Button</span></button>
+      <button id="next"><span>Next Button</span></button>
+    </section>
+    <section class="panel page" id="end_panel">
+      <div class="pg_box">
+        <h2>THANK YOU</h2>
+      </div>
+    </section>
+
+  </div>
+
+</body>
+</html>

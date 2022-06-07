@@ -1,0 +1,1155 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style-main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <script src="script/jquery-3.6.0.min.js"></script>
+    <script src="script/script-main.js"></script>
+    <title>Gwangyang_main</title>
+</head>
+<body>
+    <header>
+        <div class="header_con">
+            <div id="top_menu">
+                <ul id="top_left">
+                    <li>
+                        <img src="images/municipal.png" alt="광양시의회">
+                        <p>광양시의회</p>
+                    </li>
+                    <li>
+                        <img src="images/national_plag.png" alt="국가상징 알아보기">
+                        <p>국가상징 알아보기</p>
+                    </li>
+                    <li>
+                        <p>2022년 3월말 인구기준 : 152,901명</p>
+                    </li>
+                    <li id="family"><a href="#">
+                        <p>패밀리 웹사이트</p>
+                        <img src="images/button1.png" alt="패밀리웹사이트 버튼">
+                    </a></li>
+                </ul>
+                <ul id="top_right">
+                    <li><a href="#">
+                        로그인
+                    </a></li>
+                    <li><a href="#">
+                        회원가입
+                    </a></li>
+                    <li id="lang">
+                        <button>
+                            LANGUAGE
+                            <img src="images/button2.png" alt="언어 버튼">
+                        </button>
+                        <div id="lang_con">
+                            <ul>
+                                <li><a href="#">
+                                    <span>ENG</span>
+                                </a></li>
+                                <li><a href="#">
+                                    <span>中国語</span>
+                                </a></li>
+                                <li><a href="#">
+                                    <span>日本語</span>
+                                </a></li>
+                                <li><a href="#">
+                                    <span>VIET</span>
+                                </a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="header_wrap">
+            <div class="wrap_con">
+                <h1 id="logo">
+                    <a href="#"><img src="images/logo.png" alt="광양시청"></a>
+                </h1>
+                <nav id="nav_wrap">
+                    <ul>
+                        <li data-target="#sub1" id="sub1_menu"><a href="#">전자민원</a>
+                        <div class="sub" id="sub1">
+                                <h3>전자민원</h3>
+                                <ul class="sub_menu">
+                                    <li><a href="#">민원상담/신고</a>
+                                        <ul class="sub_list">
+                                            <li><a href="#">민원상담/신고센터</a></li>
+                                            <li><a href="#">공직비리 및 갑질신고센터</a></li>
+                                            <li><a href="#">공익신고</a></li>
+                                            <li><a href="#">민원처리공개</a></li>
+                                            <li><a href="#">행정처분공개</a></li>
+                                            <li><a href="#">예산낭비신고</a></li>
+                                            <li><a href="#">안전신문고</a></li>
+                                            <li><a href="#">도로명주소 신문고</a></li>
+                                            <li><a href="#">개인정보침해신고센터</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">민원안내</a>
+                                        <ul class="sub_list">
+                                            <li><a href="#">일반민원안내</a></li>
+                                            <li><a href="#">민원편의제도</a></li>
+                                            <li><a href="#">인터넷 민원신청</a></li>
+                                            <li><a href="#">민원서식</a></li>
+                                            <li><a href="#">여권발급안내</a></li>
+                                            <li><a href="#">무인민원발급기안내</a></li>
+                                            <li><a href="#">지방세안내</a></li>
+                                            <li><a href="#">세외수입 안내</a></li>                                        </ul>
+                                    </li>
+                                    <li><a href="#">규제개혁</a>
+                                        <ul class="sub_list">
+                                            <li><a href="#">규제개혁신문고</a></li>
+                                            <li><a href="#">규제입증요청제</a></li>
+                                            <li><a href="#">규제개혁제안</a></li>
+                                            <li><a href="#">규제개혁소식</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">행정서비스헌장전문</a></li>
+                                    <li><a href="#">민원행정서비스헌장</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li data-target="#sub2"><a href="#">열린혁신정보공개</a>
+                            <div class="sub" id="sub2">
+                                <h3 id="sub_ti2">열린혁신정보공개</h3>
+                                <ul class="sub_menu">
+                                    <li><a href="#">코로나19</a>
+                                        <ul class="sub_list">
+                                            <li><a href="#">민원상담/신고센터</a></li>
+                                            <li><a href="#">공직비리 및 갑질신고센터</a></li>
+                                            <li><a href="#">공익신고</a></li>
+                                            <li><a href="#">민원처리공개</a></li>
+                                            <li><a href="#">행정처분공개</a></li>
+                                            <li><a href="#">예산낭비신고</a></li>
+                                            <li><a href="#">안전신문고</a></li>
+                                            <li><a href="#">도로명주소 신문고</a></li>
+                                            <li><a href="#">개인정보침해신고센터</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">사전정보공표</a>
+                                        <ul class="sub_list">
+                                            <li><a href="#">일반민원안내</a></li>
+                                            <li><a href="#">민원편의제도</a></li>
+                                            <li><a href="#">인터넷 민원신청</a></li>
+                                            <li><a href="#">민원서식</a></li>
+                                            <li><a href="#">여권발급안내</a></li>
+                                            <li><a href="#">무인민원발급기안내</a></li>
+                                            <li><a href="#">지방세안내</a></li>
+                                            <li><a href="#">세외수입 안내</a></li>                                        </ul>
+                                    </li>
+                                    <li><a href="#">비공개세부기준</a>
+                                        <ul class="sub_list">
+                                            <li><a href="#">규제개혁신문고</a></li>
+                                            <li><a href="#">규제입증요청제</a></li>
+                                            <li><a href="#">규제개혁제안</a></li>
+                                            <li><a href="#">규제개혁소식</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">정보공개청구</a></li>
+                                    <li class="sub2_m"><a href="#">업무추진비공개</a></li>
+                                    <li class="sub2_m"><a href="#">정보공개제도안내</a></li>
+                                    <li class="sub2_m"><a href="#">정보목록</a></li>
+                                    <li class="sub2_m"><a href="#">행정정보소재안내</a></li>
+                                    <li><a href="#">공공데이터개방</a></li>
+                                    <li><a href="#">국가안전대진단 점검결과</a></li>
+                                    <li><a href="#">정책실명제</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li data-target="#sub3"><a href="#">뉴스/소식</a>
+                            <div class="sub" id="sub3">
+                                <h3>뉴스/소식</h3>
+                                <ul class="sub_menu">
+                                    <li><a href="#">공지사항</a></li>
+                                    <li><a href="#">시정소식지</a></li>
+                                    <li><a href="#">타기관소식</a></li>
+                                    <li><a href="#">고시</a></li>
+                                    <li><a href="#">공고</a></li>
+                                    <li><a href="#">광양시보</a></li>
+                                    <li><a href="#">보도자료</a></li>
+                                    <li><a href="#">동영상정보</a></li>
+                                    <li><a href="#">계약정보</a>
+                                        <ul class="sub_list">
+                                            <li><a href="#">입찰정보</a></li>
+                                            <li><a href="#">계약현황</a></li>
+                                            <li><a href="#">수의계약</a></li>
+                                            <li><a href="#">발주계획</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">시정일정</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li data-target="#sub4"><a href="#">시민/참여</a>
+                            <div class="sub" id="sub4">
+                                <h3>시민/참여</h3>
+                                <ul class="sub_menu">
+                                    <li><a href="#">자유게시판</a></li>
+                                    <li><a href="#">부동산거래</a></li>
+                                    <li><a href="#">칭찬합시다</a></li>
+                                    <li><a href="#">홈페이지 오류신고</a></li>
+                                    <li><a href="#">국민(시민)제안</a>
+                                        <ul class="sub_list">
+                                            <li><a href="#">국민(시민)제안</a></li>
+                                            <li><a href="#">나의 제안보기</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">설문조사</a></li>
+                                    <li><a href="#">주민참여예산</a>
+                                        <ul class="sub_list">
+                                            <li><a href="#">주민참여예산</a></li>
+                                            <li><a href="#">예산편성에 바란다</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">이벤트게시판</a></li>
+                                    <li class="sub4_m"><a href="#">적극행정</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li data-target="#sub5"><a href="#">분야별정보</a>
+                            <div class="sub" id="sub5">
+                                <h3>분야별정보</h3>
+                                <ul class="sub_menu">
+                                    <li><a href="#">행정정보
+                                        <img src="images/icon1.png" alt="분야별1">
+                                    </a></li>
+                                    <li><a href="#">재정정보
+                                        <img src="images/icon2.png" alt="분야별2">
+                                    </a></li>
+                                    <li><a href="#">생활정보
+                                        <img src="images/icon3.png" alt="분야별3">
+                                    </a></li>
+                                    <li><a href="#">복지정보
+                                        <img src="images/icon4.png" alt="분야별4">
+                                    </a></li>
+                                    <li><a href="#">환경정보
+                                        <img src="images/icon5.png" alt="분야별5">
+                                    </a></li>
+                                    <li><a href="#">산업경제
+                                        <img src="images/icon6.png" alt="분야별6">
+                                    </a></li>
+                                    <li><a href="#">도시주택
+                                        <img src="images/icon7.png" alt="분야별7">
+                                    </a></li>
+                                    <li><a href="#">재난안전
+                                        <img src="images/icon8.png" alt="분야별8">
+                                    </a></li>
+                                    <li ><a href="#">보건정보
+                                        <img src="images/icon9.png" alt="분야별9">
+                                    </a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li data-target="#sub6"><a href="#">Sunshine광양</a>
+                            <div class="sub" id="sub6">
+                                <h3>시민/참여</h3>
+                                <ul class="sub_menu">                                                                                       
+                                    <li><a href="#">기본현황</a>
+                                        <ul class="sub_list">
+                                            <li><a href="#">역사</a></li>
+                                            <li><a href="#">시민헌장</a></li>
+                                            <li><a href="#">자연환경</a></li>
+                                            <li><a href="#">행정지도</a></li>
+                                            <li><a href="#">시청현황책자</a></li>
+                                            <li><a href="#">우리시 수상내역</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">통계정보</a>
+                                        <ul class="sub_list">
+                                            <li><a href="#">광양 주요통계</a></li>
+                                            <li><a href="#">통계자료방</a></li>
+                                            <li><a href="#">광양 통계연보</a></li>
+                                            <li><a href="#">KOSIS 국가통계포탈</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">상징물</a>
+                                        <ul class="sub_list">
+                                            <li><a href="#">슬로건</a></li>
+                                            <li><a href="#">비전</a></li>
+                                            <li><a href="#">휘장(심볼마크)</a></li>
+                                            <li><a href="#">워드마크</a></li>
+                                            <li><a href="#">캐릭터</a></li>
+                                            <li><a href="#">나무,새,꽃</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">자매결연</a>
+                                        <ul class="sub_list">
+                                            <li><a href="#">자매도시</a></li>
+                                            <li><a href="#">우호도시</a></li>
+                                            <li><a href="#">의향도시</a></li>
+                                            <li><a href="#">국내자매결연도시</a></li>
+                                            <li><a href="#">광양함</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="sub6_m"><a href="#">광양이야기</a>
+                                        <ul class="sub_list">
+                                            <li><a href="#">설화모음집</a></li>
+                                            <li><a href="#">지명유래</a></li>
+                                            <li><a href="#">인물</a></li>
+                                            <li><a href="#">놀이문화</a></li>
+                                            <li><a href="#">광양시지</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="sub6_m"><a href="#">시청안내</a>
+                                        <ul class="sub_list">
+                                            <li><a href="#">행정조직도</a></li>
+                                            <li><a href="#">직원 및 업무검색</a></li>
+                                            <li><a href="#">청사안내도</a></li>
+                                            <li><a href="#">찾아오시는길</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="sub6_m"><a href="#">읍면동</a>
+                                        <ul class="sub_list">
+                                            <li><a href="#">광양읍</a></li>
+                                            <li><a href="#">봉강면</a></li>
+                                            <li><a href="#">옥룡면</a></li>
+                                            <li><a href="#">옥곡면</a></li>
+                                            <li><a href="#">진상면</a></li>
+                                            <li><a href="#">진월면</a></li>
+                                            <li><a href="#">다압면</a></li>
+                                            <li><a href="#">골약동</a></li>
+                                            <li><a href="#">중마동</a></li>
+                                            <li><a href="#">광영동</a></li>
+                                            <li><a href="#">태인동</a></li>
+                                            <li><a href="#">금호동</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="#">광양갤러리</a>
+                        </li>
+                    </ul>
+                </nav>
+                <button>
+                    <img src="images/sitemap.png" alt="사이트맵">
+                </button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="main">
+            <div id="quick">
+                <div class="quick_menu qui1">
+                    <a href="#">
+                        <img src="images/quick_icon1.png" alt="퀵메뉴1">
+                        내 맞춤메뉴
+                    </a>
+                </div>
+                <div class="quick_menu qui2">
+                    <a href="#">
+                        <img src="images/quick_icon2.png" alt="퀵메뉴2">
+                        주요알림<br>모아보기
+                    </a>
+                </div>
+            </div>
+            <div id="main_wrap">
+                <div id="main_ban">
+                    <ul id="main_ban_wrap">
+                        <li><a href="#"><img src="images/main_banner.png" alt="메인배너1"></a></li>
+                        <li><a href="#"><img src="images/main_banner2_03.png" alt="메인배너2"></a></li>
+                        <li><a href="#"><img src="images/main_banner3_03.png" alt="메인배너3"></a></li>
+                        <li><a href="#"><img src="images/main_banner4_03.png" alt="메인배너4"></a></li>
+                    </ul>
+                    <!-- <ul id="bullets">
+                        <li><a href="#" class="b_on"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                    </ul> -->
+                </div>
+                <div id="main_per">
+                    <div id="search">
+                        <form action="" id="main_search" name="main_search" method="post">
+                            <input type="text" autocomplete="off" id="search_box" placeholder="무엇을 도와드릴까요?">
+                            <button type="submit" class="btn_search"><span></span></button>
+                        </form>
+                    </div>
+                    <div id="person">
+                        <img src="images/signature.png" alt="희망찬 도약 새로운 광양">
+                        <h2>광양시장<br>
+                            <span>정현복</span>입니다</h2>
+                        <ul>
+                            <li class="person_box"><a href="#">소통하는 열린시장실</a></li>
+                            <li class="list"><a href="#">공약 & 매니페스토</a></li>
+                            <li class="list"><a href="#">광양 해피데이</a></li>
+                        </ul>
+                    </div>
+                    <div id="sns">
+                        <ul>
+                            <li><a href="#">
+                                <img src="images/sns1.png" alt="페이스북">
+                            </a></li>
+                            <li><img src="images/slash.png" alt="슬래쉬"></li>
+                            <li><a href="#">
+                                <img src="images/sns2.png" alt="인스타그램">
+                            </a></li>
+                            <li><img src="images/slash.png" alt="슬래쉬"></li>
+                            <li><a href="#">
+                                <img src="images/sns3.png" alt="트위터">
+                            </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="custom_menu">
+                <ul>
+                    <li class="menu_icon1"><a href="#">
+                        <span>교통정보</span>
+                    </a></li>
+                    <li class="menu_icon2"><a href="#">
+                        <span>민원접수</span>
+                    </a></li>
+                    <li class="menu_icon3"><a href="#">
+                        <span>재정정보</span>
+                    </a></li>
+                    <li class="menu_icon4"><a href="#">
+                        <span>자치법규</span>
+                    </a></li>
+                    <li class="menu_icon5"><a href="#">
+                        <span>민원안내</span>
+                    </a></li>
+                    <li class="menu_icon6"><a href="#">
+                        <span>통계자료</span>
+                    </a></li>
+                    <li class="menu_icon7"><a href="#">
+                        <span>여성문화센터</span>
+                    </a></li>
+                    <li class="menu_icon8"><a href="#">
+                        <span>주택가격</span>
+                    </a></li>
+                    <li class="menu_icon9"><a href="#">
+                        <span>생활지리정보</span>
+                    </a></li>
+                </ul>
+            </div>
+        </section>
+        <section id="notice">
+            <div id="ntc_container">
+                <div id="notice_wrap">
+                    <div id="ntc_btn">
+                        <ul id="ntc_btn_li">
+                            <li data-target="#notice_tab1" class="on"><a href="#">공지사항</a></li>
+                            <li data-target="#notice_tab2"><a href="#">고시공고</a></li>
+                            <li data-target="#notice_tab3"><a href="#">보도자료</a></li>
+                            <li data-target="#notice_tab4"><a href="#">계약정보</a></li>
+                        </ul>
+                    </div>
+                    <div id="notice_tab1" class="tb_box on">
+                        <div><a href="#">
+                            <button>2022.04<br><span>01</span></button>
+                            · 데이터사이언스 전문가 양성사업 청년근로자 추가모집 공고안내
+                        </a></div>
+                        <ul>
+                            <li><a href="#">
+                                · 2022년도 광양시청소년문화센터 청소년 문화강좌 강사모집..
+                                <span>2022-04-01</span>
+                            </a></li>
+                            <li><a href="#">
+                                · 2022년도 광양시청소년상담복지센터 팀원(계약직)채용 공고
+                                <span>2022-04-01</span>
+                            </a></li>
+                            <li><a href="#">
+                                · 2022년 상반기 전남 인재육성 장학생 선발계획 안내
+                                <span class="s_hide">2022-04-01</span>
+                            </a></li>
+                            <li><a href="#">
+                                · 코로나19 격리대상 응시자의 시험목적 외출 허용
+                                <span class="s_hide">2022-04-01</span>
+                            </a></li>
+                            <li><a href="#">
+                                · 광양사랑상품권 영업점별 할인 판매현황(2022. 4. 1. 기준)
+                                <span class="s_hide">2022-04-01</span>
+                            </a></li>
+                        </ul>
+                    </div>
+                      
+                    <div id="notice_tab2" class="tb_box">
+                        <div><a href="#">
+                            <button>2022.04<br><span>06</span></button>
+                            · 제 2022-119호 : 2022년 사방지 지정 고시(1차)
+                        </a></div>
+                        <ul>
+                            <li><a href="#">
+                                · 제 2022-124호 : 제3종 시설물 해제고시 알림
+                                <span>2022-04-05</span>
+                            </a></li>
+                            <li><a href="#">
+                                · 제 2022-123호 : 공유수면 점용.사용허가 고시공고(산림소득과)
+                                <span>2022-04-05</span>
+                            </a></li>
+                            <li><a href="#">
+                                · 제 2022-120호 : 도로명주소(건물번호) 폐지 고시
+                                <span class="s_hide">2022-03-31</span>
+                            </a></li>
+                            <li><a href="#">
+                                · 제 2022-118호 : 유니세프 아동친화도시 추진 지방정부협의회 규약고시
+                                <span class="s_hide">2022-03-30</span>
+                            </a></li>
+                            <li><a href="#">
+                                · 제 2022-117호 : 2022년 광양시 지적재조사사업 위탁 고시
+                                <span class="s_hide">2022-03-30</span>
+                            </a></li>
+                        </ul>
+                    </div>
+                    
+                    <div id="notice_tab3" class="tb_box">
+                        <div><a href="#">
+                            <button>2022.04<br><span>02</span></button>
+                            · 17046 - 광양시 어린이보육재단, 시민 여론조사
+                        </a></div>
+                        <ul>
+                            <li><a href="#">
+                                · 17045 - 광양시, 4월 광양여행으로의 초대
+                                <span>2022-04-01</span>
+                            </a></li>
+                            <li><a href="#">
+                                · 17044 - 광양시, 일상 속 건강걷기 '워크온 20만보 걷기챌린지'
+                                <span>2022-04-01</span>
+                            </a></li>
+                            <li><a href="#">
+                                · 17043 - 전국이통장협의회 광양시지회, 불치병 투병 공무원돕기 성금기탁
+                                <span>2022-04-01</span>
+                            </a></li>
+                            <li><a href="#">
+                                · 17042 - 포스코리튬솔루션, 광양읍 자매마을 이불 빨래 봉사
+                                <span>2022-04-01</span>
+                            </a></li>
+                            <li><a href="#">
+                                · 17041 - 광양시, 가족형 어린이 테마파크 관리운영계획 수립
+                                <span class="s_hide">2022-03-31</span>
+                            </a></li>
+                        </ul>
+                    </div>
+                        
+                    <div id="notice_tab4" class="tb_box">
+                        <div><a href="#">
+                            <button>2022.04<br><span>01</span></button>
+                            · 2022년 공동주택 주거환경 개선사업(동백아파트)-입찰대행
+                        </a></div>
+                        <ul>
+                            <li><a href="#">
+                                · 공공건축물 그린리모델링사업(가야어린이집) 전기공사
+                                <span>2022-04-01</span>
+                            </a></li>
+                            <li><a href="#">
+                                · 2022년 명품가로수길 조성사업(진상지구)-별도재무관
+                                <span>2022-04-01</span>
+                            </a></li>
+                            <li><a href="#">
+                                · 산불감시카메라 신규 구매 설치
+                                <span>2022-04-01</span>
+                            </a></li>
+                            <li><a href="#">
+                                · 태인동 도시재생 노후주택 정비 및 골목 조성사업 실시...
+                                <span>2022-04-01</span>
+                            </a></li>
+                            <li><a href="#">
+                                · 금호권역 청소년문화의집 전력간선 인입공사(별도재무관)
+                                <span class="s_hide">2022-03-31</span>
+                            </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="card">
+                    <a href="#"><img src="images/card_banner2.png" alt="문화관광"></a>
+                    <button>문화관광 <span>›</span></button>
+                </div>
+            </div>
+            <div id="news_container">
+                <div id="news">
+                    <div class="title ti_news">
+                        <h3>HOT 광양 <span>뉴스</span></h3>
+                        <ul>
+                            <li id="n_prev"><a href="#">
+                                
+                            </a></li>
+                            <li id="n_pause"><a href="#">
+                                
+                            </a></li>
+                            <li id="n_next"><a href="#">
+                                
+                            </a></li>
+                        </ul>
+                    </div>
+                    <div id="news_wrap">
+                        <div class="news_con">
+                            <div class="news_card">
+                                <a href="#">
+                                    <img src="images/news1.png" alt="광양뉴스1">
+                                    정현복 시장,<br>
+                                    4월중 확대간부회의 주재
+                                    <span>
+                                        <img src="images/day_icon.png" alt="날짜아이콘">
+                                        2022. 04. 01
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="news_card">
+                                <a href="#">
+                                    <img src="images/news2.png" alt="광양뉴스2">
+                                    덕진종합건설 어린이보육재단<br>
+                                    후원금 기탁식 참석
+                                    <span>
+                                        <img src="images/day_icon.png" alt="날짜아이콘">
+                                        2022. 03. 31
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="news_con">
+                            <div class="news_card">
+                                <a href="#">
+                                    <img src="images/news2_03.png" alt="광양뉴스2">
+                                    광양시 4차 아동청소년<br>
+                                    긴급재난생활비 지급결정
+                                    <span>
+                                        <img src="images/day_icon.png" alt="날짜아이콘">
+                                        2022. 04. 04
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="news_card">
+                                <a href="#">
+                                    <img src="images/news2_05.png" alt="광양뉴스2">
+                                    광양시, 새 정부 국정과제<br>
+                                    채택 대응에 총력
+                                    <span>
+                                        <img src="images/day_icon.png" alt="날짜아이콘">
+                                        2022. 04. 04
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="news_con">
+                            <div class="news_card">
+                                <a href="#">
+                                    <img src="images/news3_03.png" alt="광양뉴스2">
+                                    2023년도 국고확보 추진상황<br>
+                                    및 상반기 신속집행 보고회
+                                    <span>
+                                        <img src="images/day_icon.png" alt="날짜아이콘">
+                                        2022. 04. 26
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="news_card">
+                                <a href="#">
+                                    <img src="images/news3_05.png" alt="광양뉴스2">
+                                    네 자녀 이상 가정-기업.단체<br>
+                                    자매결연 후원금 기탁식
+                                    <span>
+                                        <img src="images/day_icon.png" alt="날짜아이콘">
+                                        2022. 04. 27
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="news_con">
+                            <div class="news_card">
+                                <a href="#">
+                                    <img src="images/news4_03.png" alt="광양뉴스2">
+                                    정현복 시장, 5월중<br>
+                                    확대 간부회의 주재
+                                    <span>
+                                        <img src="images/day_icon.png" alt="날짜아이콘">
+                                        2022. 05. 02
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="news_card">
+                                <a href="#">
+                                    <img src="images/news4_05.png" alt="광양뉴스2">
+                                    광양시 청년정책<br>
+                                    조정위원회 위촉식 참석
+                                    <span>
+                                        <img src="images/day_icon.png" alt="날짜아이콘">
+                                        2022. 05. 03
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="news_con">
+                            <div class="news_card">
+                                <a href="#">
+                                    <img src="images/news5_03.png" alt="광양뉴스2">
+                                    시민안전을 위한 광양경찰서<br>
+                                    읍내지구대 확장이전 협약식
+                                    <span>
+                                        <img src="images/day_icon.png" alt="날짜아이콘">
+                                        2022. 05. 11
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="news_card">
+                                <a href="#">
+                                    <img src="images/news5_05.png" alt="광양뉴스2">
+                                    정현복 시장, 제 67회<br>
+                                    현충일 추념식 참석
+                                    <span>
+                                        <img src="images/day_icon.png" alt="날짜아이콘">
+                                        2022. 06. 06
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="alarm">
+                    <div class="title ti_alarm">
+                        <h3>광양 <span>알리미</span></h3>
+                        <ul>
+                            
+                            <li id="prev"><a href="#">
+                                
+                            </a></li>
+                            <li id="pause"><a href="#">
+                                
+                            </a></li>
+                            <li id="next"><a href="#">
+                                
+                            </a></li>
+                        </ul>
+                    </div>
+                    <div id="alarm_card">
+                        <ul id="al_list">
+                            <li><a href="#">
+                                <img src="images/card_banner1.png" alt="광양알리미">
+                            </a></li>
+                            <li><a href="#">
+                                <img src="images/card_banner3.png" alt="광양알리미">
+                            </a></li>
+                            <li><a href="#">
+                                <img src="images/card_banner4.png" alt="광양알리미">
+                            </a></li>
+                            <li><a href="#">
+                                <img src="images/card_banner5.png" alt="광양알리미">
+                            </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="culture">
+                    <div class="title ti_culture">
+                        <h3>광양 <span>문화행사</span></h3>
+                        <ul>
+                            
+                            <li id="prev1"><a href="#">
+                                
+                            </a></li>
+                            <li id="pause1"><a href="#">
+                                
+                            </a></li>
+                            <li id="next1"><a href="#">
+                                
+                            </a></li>
+                        </ul>
+                    </div>
+                    <div id="cul_day">
+                        <div id="cul_list">
+                            <ul>
+                                <li><a href="#">
+                                    <h4>
+                                        <img src="images/calender.png" alt="달력">
+                                        <p>[2022. 04. 21]</p>
+                                    </h4>
+                                    제 21회<br>
+                                    광양 시립합창단 정기연주회<br>
+                                    &lt;섬진강에 매화꽃잎 날리면&gt;
+                                </a></li>
+                                <span></span>
+                                <li class="cul2"><a href="#">
+                                    <h4>
+                                        <img src="images/calender.png" alt="달력">
+                                        <p>[2022. 04. 21]</p>
+                                    </h4>
+                                    제 22회<br>
+                                    광양 시립국악단 정기연주회
+                                    &lt;희양유희 Ⅱ&gt;
+                                </a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#">
+                                    <h4>
+                                        <img src="images/calender.png" alt="달력">
+                                        <p>[2022. 04. 22]</p>
+                                    </h4>
+                                    제 8회<br>
+                                    전국동시지방선거 관련<br>
+                                    입후보 안내 설명회
+                                </a></li>
+                                <span></span>
+                                <li class="cul2"><a href="#">
+                                    <h4>
+                                        <img src="images/calender.png" alt="달력">
+                                        <p>[2022. 04. 23]</p>
+                                    </h4>
+                                    화물연대 확대<br>
+                                    간부회의 및 교육
+                                </a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#">
+                                    <h4>
+                                        <img src="images/calender.png" alt="달력">
+                                        <p>[2022. 04. 25]</p>
+                                    </h4>
+                                    대한미용사회<br>
+                                    광양시지부<br>
+                                    &lt;공중위생 정기교육&gt;
+                                </a></li>
+                                <span></span>
+                                <li id="class"><a href="#">
+                                    <h4>
+                                        <img src="images/calender.png" alt="달력">
+                                        <p>[2022. 04. 30]</p>
+                                    </h4>
+                                    제 39회<br>
+                                    극단백운무대 정기공연
+                                </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="info">
+            <div id="info_wrap">
+                <div id="info1">
+                    <ul class="info_part1">
+                        <li id="info_icon1"><a href="#">
+                            <span>행정</span>
+                        </a></li>
+                        <li id="info_icon2"><a href="#">
+                            <span>생활</span>
+                        </a></li>
+                        <li id="info_icon3"><a href="#">
+                            <span>복지</span>
+                        </a></li>
+                        <li id="info_icon4"><a href="#">
+                            <span>환경</span>
+                        </a></li>
+                        <li id="info_icon5"><a href="#">
+                            <span>산업경제</span>
+                        </a></li>
+                        <li id="info_icon6"><a href="#">
+                            <span>기업지원</span>
+                        </a></li>
+                        <li id="info_icon7"><a href="#">
+                            <span>도시주택</span>
+                        </a></li>
+                        <li id="info_icon8"><a href="#">
+                            <span>재난안전</span>
+                        </a></li>
+                        <li id="info_icon9"><a href="#">
+                            <span>보건</span>
+                        </a></li>
+                    </ul>
+                    <ul class="info_part2">
+                        <li><a href="#">
+                            육아 종합<br>지원센터
+                        </a></li>
+                        <li><a href="#">
+                            여성<br>친화도시
+                        </a></li>
+                        <li><a href="#">
+                            아동<br>친화도시
+                        </a></li>
+                        <li><a href="#">
+                            청년<br>희망도시
+                        </a></li>
+                    </ul>
+                </div>
+                <div id="info2">
+                    <ul id="tab-buttons">
+                        <li data-target="#citizen" class="on"><a href="#">시민<br>맞춤정보</a></li>
+                        <li data-target="#company"><a href="#">기업<br>맞춤정보</a></li>
+                        <li data-target="#tour"><a href="#">관광<br>맞춤정보</a></li>
+                    </ul>
+                    <div id="info2_wrap">
+                       <ul id="citizen" class="info_tb_box on">
+                           <li id="cit_list1">
+                               <ul>
+                                   <li><a href="#">
+                                       ·무인민원발급기
+                                   </a></li>
+                                   <li><a href="#">
+                                       ·여권발급안내
+                                   </a></li>
+                                   <li><a href="#">
+                                       ·일과시간외 민원실운영
+                                   </a></li>
+                                   <li><a href="#">
+                                       ·차량등록안내
+                                   </a></li>
+                                   <li><a href="#">
+                                       ·민원서식
+                                   </a></li>
+                                   <li><a href="#">
+                                       ·지방세안내
+                                   </a></li>
+                               </ul>
+                           </li>
+                           <li id="cit_list2">
+                               <ul>
+                                   <li><a href="#">
+                                       ·정부24
+                                   </a></li>
+                                   <li><a href="#">
+                                       ·정보공개신청
+                                   </a></li>
+                                   <li><a href="#">
+                                       ·상하수도요금
+                                   </a></li>
+                                   <li><a href="#">
+                                       ·시민명예감사관
+                                   </a></li>
+                                   <li><a href="#">
+                                       ·공작비리 및 갑질신고센터
+                                   </a></li>
+                                   <li><a href="#">
+                                       ·행정규제개혁신고
+                                   </a></li>
+                               </ul>
+                           </li>
+                           <li id="cit_list3">
+                               <ul>
+                                   <li><a href="#">
+                                       ·대형폐기물 인터넷신고
+                                   </a></li>
+                                   <li><a href="#">
+                                       ·가로/보안등 관리시스템
+                                   </a></li>
+                                   <li><a href="#">
+                                       ·일요일 약국운영
+                                   </a></li>
+                                   <li><a href="#">
+                                       ·광양시립영세공원
+                                   </a></li>
+                                   <li><a href="#">
+                                       ·광양시립도서관
+                                   </a></li>
+                                   <li><a href="#">
+                                       ·농업기술센터
+                                   </a></li>
+                               </ul>
+                           </li>
+                       </ul>
+                       <ul id="company" class="info_tb_box">
+                           <li id="com_list1">
+                               <ul>
+                                   <li><a href="#">
+                                       ·계약정보
+                                   </a></li>
+                                   <li><a href="#">
+                                       ·투자유치
+                                   </a></li>
+                                   <li><a href="#">
+                                       ·기업지원소식
+                                   </a></li>
+                                   <li><a href="#">
+                                       ·기업정보
+                                   </a></li>
+                                   <li><a href="#">
+                                       ·도시기본계획
+                                   </a></li>
+                                   <li><a href="#">
+                                       ·산업단지분양소개
+                                   </a></li>
+                               </ul>
+                           </li>
+                           <li id="com_list2">
+                               <ul>
+                                   <li><a href="#">
+                                       ·광양민권경제자유구역
+                                   </a></li>
+                                   <li><a href="#">
+                                       ·공공디자인가이드라인
+                                   </a></li>
+                                   <li><a href="#">
+                                       ·도시야간경관
+                                   </a></li>
+                                   <li><a href="#">
+                                       ·기본계획
+                                   </a></li>
+                                   <li><a href="#">
+                                       ·소상공인융자금
+                                   </a></li>
+                                   <li><a href="#">
+                                       ·광양항
+                                   </a></li>
+                               </ul>
+                           </li>
+                           <li id="com_list3">
+                               <ul>
+                                   <li><a href="#">
+                                       ·중소기업 육성자금
+                                   </a></li>
+                                   <li><a href="#">
+                                       ·광양항
+                                   </a></li>
+                               </ul>
+                           </li>
+                       </ul>
+                       <ul id="tour" class="info_tb_box">
+                           <li id="to_list1">
+                               <ul>
+                                   <li><a href="">
+                                       ·백운산등산로
+                                   </a></li>
+                                   <li><a href="">
+                                       ·음식업소 안내
+                                   </a></li>
+                                   <li><a href="">
+                                       ·숙박업소 안내
+                                   </a></li>
+                                   <li><a href="">
+                                       ·축제
+                                   </a></li>
+                                   <li><a href="">
+                                       ·4대계곡
+                                   </a></li>
+                                   <li><a href="">
+                                       ·9경
+                                   </a></li>
+                               </ul>
+                           </li>
+                           <li id="to_list2">
+                               <ul>
+                                   <li><a href="">
+                                       ·이순신대교
+                                   </a></li>
+                                   <li><a href="">
+                                       ·광양특산물
+                                   </a></li>
+                                   <li><a href="">
+                                       ·매화축제
+                                   </a></li>
+                                   <li><a href="">
+                                       ·교통정보(시외)
+                                   </a></li>
+                                   <li><a href="">
+                                       ·섬진강자전거길
+                                   </a></li>
+                                   <li><a href="">
+                                       ·음악분수
+                                   </a></li>
+                               </ul>
+                           </li>
+                           <li id="to_list3">
+                               <ul>
+                                   <li><a href="#">
+                                       ·전통시장
+                                   </a></li>
+                                   <li><a href="#">
+                                       ·관광지도
+                                   </a></li>
+                                   <li><a href="#">
+                                       ·백운산자연휴양림
+                                   </a></li>
+                               </ul>
+                           </li>
+                       </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div id="ft_nav">
+                <div id="ftn_title">
+                    <h4>배너모음</h4>
+                    <button id="ft_prev"><img src="images/prev3.png" alt="이전"></button>
+                    <button id="ft_next"><img src="images/next3.png" alt="다음"></button>
+                </div>
+                <div id="ftn_wrap">
+                    <ul id="ftn_wrap_list">
+                        <li><a href="#">
+                            <img src="images/banner_con1.jpg" alt="배너모음1">
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/banner_con2.jpg" alt="배너모음2">
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/banner_con3.jpg" alt="배너모음3">
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/banner_con4.jpg" alt="배너모음4">
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/banner_con5.jpg" alt="배너모음5">
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/banner_con6.png" alt="배너모음6">
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/banner_con7.png" alt="배너모음7">
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/banner_con8.png" alt="배너모음8">
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/banner_con9.png" alt="배너모음9">
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/banner_con10.jpg" alt="배너모음10">
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/banner_con11.jpg" alt="배너모음11">
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/banner_con12.jpg" alt="배너모음12">
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/banner_con13.jpg" alt="배너모음13">
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/banner_con14.jpg" alt="배너모음14">
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/banner_con15.jpg" alt="배너모음15">
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/banner_con16.jpg" alt="배너모음16">
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/banner_con17.jpg" alt="배너모음17">
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/banner_con18.jpg" alt="배너모음18">
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/banner_con19.jpg" alt="배너모음19">
+                        </a></li>
+                        <li><a href="#">
+                            <img src="images/banner_con20.jpg" alt="배너모음20">
+                        </a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="ft_con">
+                <div id="ftc_wrap">
+                    <img src="images/ft_logo.png" alt="광양시로고" id="ft_logo">
+                    <div id="ft_menu">
+                        <ul>
+                            <li><a href="#">개인정보처리방침</a></li>
+                            <li><a href="#">이메일무단수집거부</a></li>
+                            <li><a href="#">저작권정책</a></li>
+                            <li><a href="#">찾아오시는길</a></li>
+                            <li><a href="#">부서별전화(FAX)번호</a></li>
+                        </ul>
+                        <!-- <span></span> -->
+                        <ul>
+                            <li>[우편번호 57785] 전라남도 광양시 시청로 33(중동) / </li>
+                            <li>대표전화 : 061)797-2114 / </li>
+                            <li>팩스 : 061)797-2598</li>
+                            <li>Copyright © 2016 GWANGYANG CITY. All Right Reserved</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>

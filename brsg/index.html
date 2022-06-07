@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style-main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <script src="script/jquery-3.6.0.min.js"></script>
+    <script src="script/script-main.js"></script>
+    <title>BRSG - MAIN</title>
+</head>
+<body>
+    <header>
+        <div id="header_con">
+            <button type="button" id="btn_category">
+                <a href="#"><img src="images/sitemap.png" alt="카테고리 아이콘"></a>
+            </button>
+            <h1 id="logo"><a href="#"><img src="images/logo3.png" alt="바른생각 로고"></a></h1>
+            <nav id="nav_wrap">
+                <ul>
+                    <li><a href="#">ABOUT</a></li> 
+                    <li><a href="#">SHOP</a></li>
+                    <li><a href="#">기획전</a></li>
+                    <li><a href="#">블로그</a></li>
+                    <li><a href="#">이벤트</a></li>
+                </ul>
+                <div id="search">
+                    <form action="" id="topSearch" name="topSearch" method="post">
+                        <input type="text" autocomplete="off" id="search_box" >
+                        <button type="submit" class="btn_search"><span>검색</span></button>
+                    </form>
+                </div>
+                <div id="util">
+                    <button type="button" id="btn_cart">
+                        <a href="#"><img src="images/cart4.png" alt="장바구니"></a>
+                    </button>
+                    <button type="button" id="btn_mypage">
+                        <a href="#"><img src="images/user.png" alt="마이페이지"></a>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="section_slide">
+            <div class="slide_container">
+                <ul id="slide_wrap">
+                    <li><a href="#"><img src="images/slide_1_23.png" alt="리프리스크 마사지 오일"></a></li>
+                    <li><a href="#"><img src="images/slide_2_03.png" alt="새로운생각 이달의 신상품"></a></li>
+                    <li><a href="#"><img src="images/slide_3_23.png" alt="감각적 꿀팁 아이템"></a></li>
+                    <li><a href="#"><img src="images/slide4_03.png" alt="버블 & 스파클링 밤 런칭"></a></li>
+                </ul>
+                <!-- <ul class="slide_bullet">
+                    <li class="pagination_bullet"><a href="#" class="on"></a></li>
+                    <li class="pagination_bullet"><a href="#"></a></li>
+                    <li class="pagination_bullet"><a href="#"></a></li>
+                    <li class="pagination_bullet"><a href="#"></a></li>
+                </ul> -->
+            </div>
+        </section>
+        <section id="best_section">
+            <div id="best_wrap">
+                <button id="prev"><span>Previous Button</span></button>
+                <button id="next"><span>Next Button</span></button>
+                <div class="best_slide_container">
+                    <h2>BEST THINK</h2>
+                    <ul id="best_slide_wrap">
+                        <li><a href="#"><img src="images/best_set_1.png" alt="베스트 익스트림세트">
+                            베스트 익스트림 세트
+                        </a></li>
+                        <li><a href="#"><img src="images/best2.png" alt="바른생각 젤">
+                            젤 내추럴 수딩
+                        </a></li>
+                        <li><a href="#"><img src="images/best_set_3.png" alt="리프리스크 오일">
+                            리프리스크 마사지 오일
+                        </a></li>
+                        <li><a href="#"><img src="images/best_set_4.png" alt="폼워시 포우먼">
+                            폼 워시 포우먼
+                        </a></li>
+                        <li><a href="#"><img src="images/best_set_5.png" alt="폼워시 포맨">
+                            폼 워시 포맨 
+                        </a></li>
+                        <li><a href="#"><img src="images/best_set_6.png" alt="폼워시 미니세트">
+                            폼 워시 미니세트
+                        </a></li>
+                        <li><a href="#"><img src="images/best_set_7.png" alt="모이스처 워터젤">
+                            모이스처 워터젤
+                        </a></li>
+                        <li><a href="#"><img src="images/best_set_8.png" alt="플러셔블 티슈">
+                            플러셔블 티슈
+                        </a></li>
+                        <li><a href="#"><img src="images/best_set_9.png" alt="올인원 공간향수">
+                            올인원 공간향수
+                        </a></li>
+                    </ul>
+                    
+                </div>
+                <div class="plan_exhibition">
+                    <h2>기획전</h2>
+                    <div><a href="#"><img src="images/exhibitions_1.png" alt="오감만족"></a></div>
+                    <div><a href="#"><img src="images/exhibitions_2.png" alt="남자의 자신감"></a></div>
+                </div>
+            </div>
+        </section>
+        <section id="new_section">
+            <div id="new_wrap">
+                    <h2>NEW 신상품</h2>
+                    <div>
+                        <ul class="product fir" id="product1">
+                            <li id="pro_img1"><a href="#"><img src="images/new1.png" alt="신상품1"></a></li>
+                            <li id="product1_h" class="active"><a href="#">
+                                <span>[바른생각]</span>
+                                <h3>워터리 에어핏 12P</h3>
+                                <p>13,900
+                                    <button><span>찜</span></button>
+                                </p>
+                            </a></li>
+                        </ul>
+                        <ul class="product" id="product2">
+                            <li id="pro_img2"><a href="#"><img src="images/new2.png" alt="신상품2"></a></li>
+                            <li id="product2_h" class="active"><a href="#">
+                                <span>[바른생각]</span>
+                                <h3>유미의 세포들<br>퍼펙트핏 3P</h3>
+                                <p>5,500
+                                    <button><span>찜</span></button>
+                                </p>
+                            </a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="product fir" id="product3">
+                            <li id="pro_img3"><a href="#"><img src="images/new_main.png" alt="메인 신상품"></a></li>
+                            <li id="product3_h" class="active"><a href="#">
+                                <span>[바른생각]</span>
+                                <h3>워터리 핑거핏 20P</h3>
+                                <p>15,900
+                                <button><span>찜</span></button>
+                                </p>
+                            </a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="product fir" id="product4">
+                            <li><a href="#"><img src="images/new3.png" alt="신상품3"></a></li>
+                            <li id="product4_h" class="active"><a href="#">
+                                <span>[바른생각]</span>
+                                <h3>눈편한생각<br>새벽산책향 5P</h3>
+                                <p>6,500
+                                    <button><span>찜</span></button>
+                                </p>
+                            </a></li>
+                        </ul>
+                        <ul class="product" id="product5">
+                            <li><a href="#"><img src="images/new4.png" alt="신상품4"></a></li>
+                            <li id="product5_h" class="active"><a href="#">
+                                <span>[바른생각]</span>
+                                <h3>눈편한생각<br>스팀 5P</h3>
+                                <p>6,500
+                                    <button><span>찜</span></button>
+                                </p>
+                            </a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="product fir" id="product6">
+                            <li><a href="#"><img src="images/new5.png" alt="신상품5"></a></li>
+                            <li id="product6_h" class="active"><a href="#">
+                                <span>[바른생각]</span>
+                                <h3>배-따순생각 5P</h3>
+                                <p>5,500
+                                    <button><span>찜</span></button>
+                                </p>
+                            </a></li>
+                        </ul>
+                        <ul class="product" id="product7">
+                            <li><a href="#"><img src="images/new6.png" alt="신상품6"></a></li>
+                            <li id="product7_h" class="active"><a href="#">
+                                <span>[허로우]</span>
+                                <h3>촉촉한 키스를<br>부르는비건립밤</h3>
+                                <p>7,900
+                                    <button><span>찜</span></button>
+                                </p>
+                            </a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="product fir" id="product8">
+                            <li><a href="#"><img src="images/new7.png" alt="신상품7"></a></li>
+                            <li id="product8_h" class="active"><a href="#">
+                                <span>[바른생각]</span>
+                                <h3>인조이 더 모먼트<br>방수패드</h3>
+                                <p>33,900
+                                    <button><span>찜</span></button>
+                                </p>
+                            </a></li>
+                        </ul>
+                        <ul class="product" id="product9">
+                            <li><a href="#"><img src="images/new8.png" alt="신상품8"></a></li>
+                            <li id="product9_h" class="active"><a href="#">
+                                <span>[바른생각]</span>
+                                <h3>킬링 미 소프틀리<br>실키블랭킷</h3>
+                                <p>27,900
+                                    <button><span>찜</span></button>
+                                </p>
+                            </a></li>
+                        </ul>
+                    </div>
+                </div>
+        </section>
+        
+        <section id="guide_section">
+            <div id="guide_container">
+                <h2>실질적 가이드</h2>
+                <ul id="guide_wrap">
+                    <li id="guide1"><a href="#">
+                        라이트 미업을<br>더 '섹시'하게<br>즐기는법
+                    </a></li>
+                    <li id="guide2"><a href="#">
+                        사랑 유형별<br>추천하는 제품
+                    </a></li>
+                    <li id="guide3"><a href="#">
+                        관계의<br>퀄리티가<br>달라지는 잇템
+                    </a></li>
+                    <li id="guide4"><a href="#">
+                        월경할때<br>훈훈한 아이템
+                    </a></li>
+                    <li id="guide5"><a href="#">
+                        워터리에어핏<br>좋은이유<br>3가지
+                    </a></li>
+                    <li id="guide6"><a href="#">
+                        마사지캔들로<br>10분만에<br>뜨밤
+                    </a></li>
+                    <li id="guide7"><a href="#">
+                        자꾸 닿고싶은<br>방수패드
+                    </a></li>
+                    <li id="guide8"><a href="#">
+                        욕조 맛집<br>웜미업 버블
+                    </a></li>
+                    <li id="guide9"><a href="#">
+                        내 몸이<br>편안해지는<br>청결제
+                    </a></li>
+                    <li id="guide10"><a href="#">
+                        나만을 위한<br>셀프-플레져<br>시간
+                    </a></li>
+                    <li id="guide11"><a href="#">
+                        맘놓고<br>핑거링하는<br>기쁨
+                    </a></li>
+                    <li id="guide12"><a href="#">
+                        외박할때<br>챙기는<br>잇템 3가지
+                    </a></li>
+                    <li id="guide13"><a href="#">
+                        페일블루닷,<br>여행지의<br>향기
+                    </a></li>
+                    <li id="guide14"><a href="#">
+                        플러셔블<br>티슈의<br>숨겨진기능
+                    </a></li>
+                    <li id="guide15"><a href="#">
+                        냉온탕을<br>오가는<br>쾌감
+                    </a></li>
+                    <li id="guide16"><a href="#">
+                        체위의<br>신세계를<br>열어줄 운동
+                    </a></li>
+                </ul>
+            </div>
+        </section>
+        <section id="review_section">
+            <div id="review_container">
+                <h2>REVIEW</h2>
+                <div id="rev_box1"><a href="#">
+                    <h4>[바른생각]</h4>
+                    <h3>젤 내추럴 수딩 150ml</h3>
+                    <p>
+                        내추럴로 바꿔서 사용해보니 따갑지도 않고 촉촉하고<br>
+                        끈적임도 없고 사용감이 정말 좋았어요
+                    </p>
+                    <img src="images/review_1.gif" alt="젤 네츄럴 수딩 리뷰">
+                    <span>서**</span>
+                </a></div>
+                <div id="rev_box2"><a href="#">
+                    <h4>[오뷰엠]</h4>
+                    <h3>스마트정자 관찰 현미경</h3>
+                    <p>
+                        혹여 나는 정자가 없을까 걱정하는 와중에 자가진단을 해본 결과<br>
+                        너무 마음이 놓입니다! 정말 좋은 의료기기 입니다! 강추입니다! 
+                    </p>
+                    <img src="images/review_2.jpg" alt="스마트정자 관찰현미경 리뷰">
+                    <span>유**</span>
+                </a></div>
+                <div id="rev_box3"><a href="#">
+                    <h4>[바른생각]</h4>
+                    <h3>퍼펙트 핏 12개입</h3>
+                    <p>
+                        제일얇고 느낌이 잘난다는 후기 보고 사서 써봣어요!<br>
+                        처음엔 끝 부분이 없어서 어디에 담길까 했는데 잘 보관되더라구요 ㅋㅋㅋ  
+                    </p>
+                    <img src="images/review_3.gif" alt="퍼펙트핏 12개입 리뷰">
+                    <span>변**</span>
+                </a></div>
+                <div id="rev_box4"><a href="#">
+                    <h4>[바이오글라이드]</h4>
+                    <h3>마사지오일 2종 택1</h3>
+                    <p>
+                        인체에 무해한 천연성분의 오일로 뜨밤보내기 너무 만족했던 오일<br>
+                        입니다! 이런 오일이 있었다니 신세계 입니다!
+                    </p>
+                    <img src="images/review_4.gif" alt="마사지오일 리뷰">
+                    <span>최**</span>
+                </a></div>
+            </div>
+        </section>
+        <footer>
+            <div id="ft">
+                <nav id="ft_nav">
+                    <ul>
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">개인정보 수집 및 이용</a></li>
+                        <li><a href="#">개인정보 수집 및 활용</a></li>
+                    </ul>
+                </nav>
+                <div id="ft_f">
+                    <h2>(주)컨비니언스 사업자 정보 고객센터 02-2088-7158</h2>
+                    <p>대표이사:박경진 통신판매업신고 2016-서울마포-1807 상호명 (주) 컨비니언스 주소 서울시 마포구 잔다리로 39 5층</p>
+                    <p>이메일ask@cakorea.co.kr 개인정보처리관리자 이상락 © CONVENIENCE CORP. ALL RIGHTS RESERVED</p>
+                </div>
+                <div id="ft_s">
+                    <h2>고객센터 02-2088-7158</h2>
+                    <p>10:00 ~ 17:00 (OFF TIME 12:00 ~ 13:00)</p>
+                    <p>DAY OFF (SATURDAY, SUNDAY, HOLIDAY)</p>
+                </div>
+                <div id="sns">
+                    <a href="#"><img src="images/sns_1.png" alt="youtube"></a>
+                    <a href="#"><img src="images/sns_2.png" alt="facebook"></a>
+                    <a href="#"><img src="images/sns_3.png" alt="instagram"></a>
+                </div>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>

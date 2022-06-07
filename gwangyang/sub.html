@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gwangyang-sub</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style-sub.css">
+    <script src="script/jquery-3.6.0.min.js"></script>
+    <script src="script/script-sub.js"></script>
+</head>
+<body>
+    <header id="top_header">
+        <div class="header_con">
+            <div id="top_menu">
+                <ul id="top_left">
+                    <li>
+                        <img src="images/municipal.png" alt="광양시의회">
+                        <p>광양시의회</p>
+                    </li>
+                    <li>
+                        <img src="images/national_plag.png" alt="국가상징 알아보기">
+                        <p>국가상징 알아보기</p>
+                    </li>
+                    <li>
+                        <p>2022년 3월말 인구기준 : 152,901명</p>
+                    </li>
+                    <li id="family"><a href="#">
+                        <p>패밀리 웹사이트</p>
+                        <img src="images/button1.png" alt="패밀리웹사이트 버튼">
+                    </a></li>
+                </ul>
+                <ul id="top_right">
+                    <li><a href="#">
+                        로그인
+                    </a></li>
+                    <li><a href="#">
+                        회원가입
+                    </a></li>
+                    <li id="lang">
+                        <button>
+                            LANGUAGE
+                            <img src="images/button2.png" alt="언어 버튼">
+                        </button>
+                        <div id="lang_con">
+                            <ul>
+                                <li><a href="#">
+                                    <span>ENG</span>
+                                </a></li>
+                                <li><a href="#">
+                                    <span>中国語</span>
+                                </a></li>
+                                <li><a href="#">
+                                    <span>日本語</span>
+                                </a></li>
+                                <li><a href="#">
+                                    <span>VIET</span>
+                                </a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="header_wrap">
+            <div class="wrap_con">
+                <h1 id="logo">
+                    <a href="#"><img src="images/logo.png" alt="광양시청"></a>
+                </h1>
+                <nav id="nav_wrap">
+                    <ul>
+                        <li data-target="#sub1" id="sub1_menu"><a href="#">전자민원</a>
+                        <div class="sub" id="sub1">
+                                <h3>전자민원</h3>
+                                <ul class="sub_menu">
+                                    <li><a href="#">민원상담/신고</a>
+                                        <ul class="sub_list">
+                                            <li><a href="#">민원상담/신고센터</a></li>
+                                            <li><a href="#">공직비리 및 갑질신고센터</a></li>
+                                            <li><a href="#">공익신고</a></li>
+                                            <li><a href="#">민원처리공개</a></li>
+                                            <li><a href="#">행정처분공개</a></li>
+                                            <li><a href="#">예산낭비신고</a></li>
+                                            <li><a href="#">안전신문고</a></li>
+                                            <li><a href="#">도로명주소 신문고</a></li>
+                                            <li><a href="#">개인정보침해신고센터</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">민원안내</a>
+                                        <ul class="sub_list">
+                                            <li><a href="#">일반민원안내</a></li>
+                                            <li><a href="#">민원편의제도</a></li>
+                                            <li><a href="#">인터넷 민원신청</a></li>
+                                            <li><a href="#">민원서식</a></li>
+                                            <li><a href="#">여권발급안내</a></li>
+                                            <li><a href="#">무인민원발급기안내</a></li>
+                                            <li><a href="#">지방세안내</a></li>
+                                            <li><a href="#">세외수입 안내</a></li>                                        </ul>
+                                    </li>
+                                    <li><a href="#">규제개혁</a>
+                                        <ul class="sub_list">
+                                            <li><a href="#">규제개혁신문고</a></li>
+                                            <li><a href="#">규제입증요청제</a></li>
+                                            <li><a href="#">규제개혁제안</a></li>
+                                            <li><a href="#">규제개혁소식</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">행정서비스헌장전문</a></li>
+                                    <li><a href="#">민원행정서비스헌장</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li data-target="#sub2"><a href="#">열린혁신정보공개</a>
+                            <div class="sub" id="sub2">
+                                <h3 id="sub_ti2">열린혁신정보공개</h3>
+                                <ul class="sub_menu">
+                                    <li><a href="#">코로나19</a>
+                                        <ul class="sub_list">
+                                            <li><a href="#">민원상담/신고센터</a></li>
+                                            <li><a href="#">공직비리 및 갑질신고센터</a></li>
+                                            <li><a href="#">공익신고</a></li>
+                                            <li><a href="#">민원처리공개</a></li>
+                                            <li><a href="#">행정처분공개</a></li>
+                                            <li><a href="#">예산낭비신고</a></li>
+                                            <li><a href="#">안전신문고</a></li>
+                                            <li><a href="#">도로명주소 신문고</a></li>
+                                            <li><a href="#">개인정보침해신고센터</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">사전정보공표</a>
+                                        <ul class="sub_list">
+                                            <li><a href="#">일반민원안내</a></li>
+                                            <li><a href="#">민원편의제도</a></li>
+                                            <li><a href="#">인터넷 민원신청</a></li>
+                                            <li><a href="#">민원서식</a></li>
+                                            <li><a href="#">여권발급안내</a></li>
+                                            <li><a href="#">무인민원발급기안내</a></li>
+                                            <li><a href="#">지방세안내</a></li>
+                                            <li><a href="#">세외수입 안내</a></li>                                        </ul>
+                                    </li>
+                                    <li><a href="#">비공개세부기준</a>
+                                        <ul class="sub_list">
+                                            <li><a href="#">규제개혁신문고</a></li>
+                                            <li><a href="#">규제입증요청제</a></li>
+                                            <li><a href="#">규제개혁제안</a></li>
+                                            <li><a href="#">규제개혁소식</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">정보공개청구</a></li>
+                                    <li class="sub2_m"><a href="#">업무추진비공개</a></li>
+                                    <li class="sub2_m"><a href="#">정보공개제도안내</a></li>
+                                    <li class="sub2_m"><a href="#">정보목록</a></li>
+                                    <li class="sub2_m"><a href="#">행정정보소재안내</a></li>
+                                    <li><a href="#">공공데이터개방</a></li>
+                                    <li><a href="#">국가안전대진단 점검결과</a></li>
+                                    <li><a href="#">정책실명제</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li data-target="#sub3"><a href="#">뉴스/소식</a>
+                            <div class="sub" id="sub3">
+                                <h3>뉴스/소식</h3>
+                                <ul class="sub_menu">
+                                    <li><a href="#">공지사항</a></li>
+                                    <li><a href="#">시정소식지</a></li>
+                                    <li><a href="#">타기관소식</a></li>
+                                    <li><a href="#">고시</a></li>
+                                    <li><a href="#">공고</a></li>
+                                    <li><a href="#">광양시보</a></li>
+                                    <li><a href="#">보도자료</a></li>
+                                    <li><a href="#">동영상정보</a></li>
+                                    <li><a href="#">계약정보</a>
+                                        <ul class="sub_list">
+                                            <li><a href="#">입찰정보</a></li>
+                                            <li><a href="#">계약현황</a></li>
+                                            <li><a href="#">수의계약</a></li>
+                                            <li><a href="#">발주계획</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">시정일정</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li data-target="#sub4"><a href="#">시민/참여</a>
+                            <div class="sub" id="sub4">
+                                <h3>시민/참여</h3>
+                                <ul class="sub_menu">
+                                    <li><a href="#">자유게시판</a></li>
+                                    <li><a href="#">부동산거래</a></li>
+                                    <li><a href="#">칭찬합시다</a></li>
+                                    <li><a href="#">홈페이지 오류신고</a></li>
+                                    <li><a href="#">국민(시민)제안</a>
+                                        <ul class="sub_list">
+                                            <li><a href="#">국민(시민)제안</a></li>
+                                            <li><a href="#">나의 제안보기</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">설문조사</a></li>
+                                    <li><a href="#">주민참여예산</a>
+                                        <ul class="sub_list">
+                                            <li><a href="#">주민참여예산</a></li>
+                                            <li><a href="#">예산편성에 바란다</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">이벤트게시판</a></li>
+                                    <li class="sub4_m"><a href="#">적극행정</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li data-target="#sub5"><a href="#">분야별정보</a>
+                            <div class="sub" id="sub5">
+                                <h3>분야별정보</h3>
+                                <ul class="sub_menu">
+                                    <li><a href="#">행정정보
+                                        <img src="images/icon1.png" alt="분야별1">
+                                    </a></li>
+                                    <li><a href="#">재정정보
+                                        <img src="images/icon2.png" alt="분야별2">
+                                    </a></li>
+                                    <li><a href="#">생활정보
+                                        <img src="images/icon3.png" alt="분야별3">
+                                    </a></li>
+                                    <li><a href="#">복지정보
+                                        <img src="images/icon4.png" alt="분야별4">
+                                    </a></li>
+                                    <li><a href="#">환경정보
+                                        <img src="images/icon5.png" alt="분야별5">
+                                    </a></li>
+                                    <li><a href="#">산업경제
+                                        <img src="images/icon6.png" alt="분야별6">
+                                    </a></li>
+                                    <li><a href="#">도시주택
+                                        <img src="images/icon7.png" alt="분야별7">
+                                    </a></li>
+                                    <li><a href="#">재난안전
+                                        <img src="images/icon8.png" alt="분야별8">
+                                    </a></li>
+                                    <li ><a href="#">보건정보
+                                        <img src="images/icon9.png" alt="분야별9">
+                                    </a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li data-target="#sub6"><a href="#">Sunshine광양</a>
+                            <div class="sub" id="sub6">
+                                <h3>시민/참여</h3>
+                                <ul class="sub_menu">                                                                                       
+                                    <li><a href="#">기본현황</a>
+                                        <ul class="sub_list">
+                                            <li><a href="#">역사</a></li>
+                                            <li><a href="#">시민헌장</a></li>
+                                            <li><a href="#">자연환경</a></li>
+                                            <li><a href="#">행정지도</a></li>
+                                            <li><a href="#">시청현황책자</a></li>
+                                            <li><a href="#">우리시 수상내역</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">통계정보</a>
+                                        <ul class="sub_list">
+                                            <li><a href="#">광양 주요통계</a></li>
+                                            <li><a href="#">통계자료방</a></li>
+                                            <li><a href="#">광양 통계연보</a></li>
+                                            <li><a href="#">KOSIS 국가통계포탈</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">상징물</a>
+                                        <ul class="sub_list">
+                                            <li><a href="#">슬로건</a></li>
+                                            <li><a href="#">비전</a></li>
+                                            <li><a href="#">휘장(심볼마크)</a></li>
+                                            <li><a href="#">워드마크</a></li>
+                                            <li><a href="#">캐릭터</a></li>
+                                            <li><a href="#">나무,새,꽃</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">자매결연</a>
+                                        <ul class="sub_list">
+                                            <li><a href="#">자매도시</a></li>
+                                            <li><a href="#">우호도시</a></li>
+                                            <li><a href="#">의향도시</a></li>
+                                            <li><a href="#">국내자매결연도시</a></li>
+                                            <li><a href="#">광양함</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="sub6_m"><a href="#">광양이야기</a>
+                                        <ul class="sub_list">
+                                            <li><a href="#">설화모음집</a></li>
+                                            <li><a href="#">지명유래</a></li>
+                                            <li><a href="#">인물</a></li>
+                                            <li><a href="#">놀이문화</a></li>
+                                            <li><a href="#">광양시지</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="sub6_m"><a href="#">시청안내</a>
+                                        <ul class="sub_list">
+                                            <li><a href="#">행정조직도</a></li>
+                                            <li><a href="#">직원 및 업무검색</a></li>
+                                            <li><a href="#">청사안내도</a></li>
+                                            <li><a href="#">찾아오시는길</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="sub6_m"><a href="#">읍면동</a>
+                                        <ul class="sub_list">
+                                            <li><a href="#">광양읍</a></li>
+                                            <li><a href="#">봉강면</a></li>
+                                            <li><a href="#">옥룡면</a></li>
+                                            <li><a href="#">옥곡면</a></li>
+                                            <li><a href="#">진상면</a></li>
+                                            <li><a href="#">진월면</a></li>
+                                            <li><a href="#">다압면</a></li>
+                                            <li><a href="#">골약동</a></li>
+                                            <li><a href="#">중마동</a></li>
+                                            <li><a href="#">광영동</a></li>
+                                            <li><a href="#">태인동</a></li>
+                                            <li><a href="#">금호동</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="#">광양갤러리</a>
+                        </li>
+                    </ul>
+                </nav>
+                <button>
+                    <img src="images/sitemap.png" alt="사이트맵">
+                </button>
+            </div>
+        </div>
+    </header>
+    <div id="main_wrap">
+        <div id="search_wrap">
+            <div id="search">
+                <form action="" id="search_form" name="topSearch">
+                    <input type="text" name="sub_search" placeholder="무엇을 도와드릴까요?" id="search_box">
+                    <button type="submit" id="search_button"><a href="#">
+                        <img src="images/search2_03.png" alt="검색아이콘">
+                    </a></button>
+                </form>
+                <div id="search_keyword">
+                    <ul id="rolling">
+                        <li><a href="#">1. 교통</a></li>
+                        <li><a href="#">2. 시민참여</a></li>
+                        <li><a href="#">3. 와우지구</a></li>
+                        <li><a href="#">4. 열린시장</a></li>
+                        <li><a href="#">5. 여권</a></li>
+                        <li><a href="#">6. 공시지가</a></li>
+                        <li><a href="#">7. 인사/동정</a></li>
+                        <li><a href="#">8. 광양도보</a></li>
+                        <li><a href="#">9. 중소기업지원</a></li>
+                        <li><a href="#">10. 창업정보</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="container">
+            <div id="side">
+                <div id="side_title">
+                    <strong>전자민원</strong>
+                </div>
+                <div id="side_menu">
+                    <nav>
+                        <div id="menu">
+                            <ul id="s_m_list">
+                                <li class="m_on">
+                                    <a href="#">민원안내</a>
+                                    <ul id="sm_list1">
+                                        <li class="sm_on">
+                                            <h3><a href="#">일반민원</a></h3>
+                                            <ul class="sm_list1_on">
+                                                <li class="sm_active"><a href="#">민원실 안내도</a></li>
+                                                <li><a href="#">민원처리부서안내</a></li>
+                                                <li><a href="#">민원서식</a></li>
+                                                <li><a href="#">민원수수료안내</a></li>
+                                                <li><a href="#">수수료감면규정</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="sm_on">
+                                            <h3><a href="#">민원편의제도</a></h3>
+                                            <!-- <ul class="sm_list1_on">
+                                                <li><a href="#">민원실 안내도</a></li>
+                                                <li><a href="#">민원처리부서안내</a></li>
+                                                <li><a href="#">민원서식</a></li>
+                                                <li><a href="#">민원수수료안내</a></li>
+                                                <li><a href="#">수수료감면규정</a></li>
+                                            </ul></li> -->
+                                        <li class="sm_on">
+                                            <h3><a href="#">여권발급안내</a></h3>
+                                            <!-- <ul class="sm_list1_on">
+                                                <li><a href="#">민원실 안내도</a></li>
+                                                <li><a href="#">민원처리부서안내</a></li>
+                                                <li><a href="#">민원서식</a></li>
+                                                <li><a href="#">민원수수료안내</a></li>
+                                                <li><a href="#">수수료감면규정</a></li>
+                                            </ul></li> -->
+                                        <li class="sm_on">
+                                            <h3><a href="#">무인민원발급기안내</a></h3>
+                                            <!-- <ul class="sm_list1_on">
+                                                <li><a href="#">민원실 안내도</a></li>
+                                                <li><a href="#">민원처리부서안내</a></li>
+                                                <li><a href="#">민원서식</a></li>
+                                                <li><a href="#">민원수수료안내</a></li>
+                                                <li><a href="#">수수료감면규정</a></li>
+                                            </ul></li> -->
+                                        <li class="sm_on">
+                                            <h3><a href="#">지방세안내</a></h3>
+                                            <!-- <ul class="sm_list1_on">
+                                                <li><a href="#">민원실 안내도</a></li>
+                                                <li><a href="#">민원처리부서안내</a></li>
+                                                <li><a href="#">민원서식</a></li>
+                                                <li><a href="#">민원수수료안내</a></li>
+                                                <li><a href="#">수수료감면규정</a></li>
+                                            </ul></li> -->
+                                        <li class="sm_on">
+                                            <h3><a href="#">세외수입안내</a></h3>
+                                           <!--  <ul class="sm_list1_on">
+                                                <li><a href="#">민원실 안내도</a></li>
+                                                <li><a href="#">민원처리부서안내</a></li>
+                                                <li><a href="#">민원서식</a></li>
+                                                <li><a href="#">민원수수료안내</a></li>
+                                                <li><a href="#">수수료감면규정</a></li>
+                                            </ul></li> -->
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">민원상담 / 신고</a>
+                                    <ul id="sm_list2">
+                                        <li>
+                                            <h3><a href="#">민원상담/신고센터</a></h3>
+                                        </li>
+                                        <li>
+                                            <h3><a href="#">공직비리 및 갑질신고</a></h3>
+                                        </li>
+                                        <li>
+                                            <h3><a href="#">공익신고</a></h3>
+                                        </li>
+                                        <li>
+                                            <h3><a href="#">민원처리공개</a></h3>
+                                        </li>
+                                        <li>
+                                            <h3><a href="#">행정처분공개</a></h3>
+                                        </li>
+                                        <li>
+                                            <h3><a href="#">예산낭비신고</a></h3>
+                                        </li>
+                                        <li>
+                                            <h3><a href="#">안전신문고</a></h3>
+                                        </li>
+                                        <li>
+                                            <h3><a href="#">도로명주소 신문고</a></h3>
+                                        </li>
+                                        <li>
+                                            <h3><a href="#">개인정보침해신고</a></h3>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">행정서비스헌장전문</a>
+                                </li>
+                                <li>
+                                    <a href="#">민원행정서비스헌장</a>
+                                </li>
+                                <li>
+                                    <a href="#">규제개혁</a>
+                                    <ul id="sm_list3">
+                                        <li>
+                                            <h3><a href="#">규제개혁신문고</a></h3>
+                                        </li>
+                                        <li>
+                                            <h3><a href="#">규제입증요청제</a></h3>
+                                        </li>
+                                        <li>
+                                            <h3><a href="#">규제개혁제안</a></h3>
+                                        </li>
+                                        <li>
+                                            <h3><a href="#">규제개혁소식</a></h3>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <main id="con_wrap">
+                <article>
+                    <header id="sub_head">
+                        <div id="sub_title">
+                            <h2>민원실 안내도</h2>
+                            <div id="breadcrumb">
+                                <ol>
+                                    <li><a href="#">
+                                        <img src="images/home_03.png" alt="홈 아이콘">
+                                    </a></li>
+                                    <li><a href="#">
+                                        전자민원
+                                    </a></li>
+                                    <li><a href="#">
+                                        민원안내
+                                    </a></li>
+                                    <li><a href="#">
+                                        일반민원안내
+                                    </a></li>
+                                    <li><a href="#">
+                                        민원실안내도
+                                    </a></li>
+                                </ol>
+                            </div>
+                        </div>
+                    </header>
+                    <div id="contents">
+                        <div id="plan_de_disposition">
+                            <h2>민원실 배치도</h2>
+                            <div id="plan_img">
+                                <img src="images/plan-de-disposition_03.jpg" alt="민원실배치도">
+                            </div>
+                        </div>
+                        <div id="staff">
+                            <h2>직원업무안내</h2>
+                            <table>
+                                <caption>직원업무안내 - 각 창구별 직원담당업무 정보제공</caption>
+                                <colgroup>
+                                    <col style="width: 120px;">
+                                    <col style="width: 400px;">
+                                    <col style="width: 120px;">
+                                    <col style="width: 310px;">
+                                </colgroup>
+                                <thead>
+                                    <tr>
+                                        <th>창구별</th>
+                                        <th>담당업무</th>
+                                        <th>성명</th>
+                                        <th>전화번호</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th>1</th>
+                                        <td>민원접수.상담</td>
+                                        <td>이선정</td>
+                                        <td>061-797-3394</td>
+                                    </tr>
+                                    <tr>
+                                        <th>2</th>
+                                        <td>민원.정보공개</td>
+                                        <td>전경주</td>
+                                        <td>061-797-2242</td>
+                                    </tr>
+                                    <tr>
+                                        <th>3</th>
+                                        <td>건설기계등록</td>
+                                        <td>박은희</td>
+                                        <td>061-797-2862</td>
+                                    </tr>
+                                    <tr>
+                                        <th>4</th>
+                                        <td>자동차등록</td>
+                                        <td>김명신</td>
+                                        <td>061-797-3396</td>
+                                    </tr>
+                                    <tr>
+                                        <th>4</th>
+                                        <td>자동차등록</td>
+                                        <td>강은진</td>
+                                        <td>061-797-3396</td>
+                                    </tr>
+                                    <tr>
+                                        <th>4</th>
+                                        <td>자동차등록</td>
+                                        <td>김희원</td>
+                                        <td>061-797-3369</td>
+                                    </tr>
+                                    <tr>
+                                        <th>5</th>
+                                        <td>자동차 취.등록세</td>
+                                        <td>이명재</td>
+                                        <td>061-797-3402</td>
+                                    </tr>
+                                    <tr>
+                                        <th>6</th>
+                                        <td>가족관계등록신고</td>
+                                        <td>김영숙</td>
+                                        <td>061-797-3477</td>
+                                    </tr>
+                                    <tr>
+                                        <th>7</th>
+                                        <td>여권신청</td>
+                                        <td>박은영</td>
+                                        <td>061-797-2477</td>
+                                    </tr>
+                                    <tr>
+                                        <th>8</th>
+                                        <td>통합민원신청</td>
+                                        <td>김다인</td>
+                                        <td>061-797-2477</td>
+                                    </tr>
+                                    <tr>
+                                        <th>8</th>
+                                        <td>통합민원신청</td>
+                                        <td>박은지</td>
+                                        <td>061-797-3418</td>
+                                    </tr>
+                                    <tr>
+                                        <th>9</th>
+                                        <td>부동산실거래신고</td>
+                                        <td>백푸름</td>
+                                        <td>061-797-2249</td>
+                                    </tr>
+                                    <tr>
+                                        <th>10</th>
+                                        <td>지적측량신청</td>
+                                        <td>임천</td>
+                                        <td>061-797-3399</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div id="per">
+                            <ul>
+                                <li>담당부서</li>
+                                <li>민원지적과</li>
+                                <li>담당자</li>
+                                <li>정인숙</li>
+                                <li>최종수정일</li>
+                                <li>2021/10/18</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <footer id="sub_footer">
+                        <div id="sub_ft_icon">
+                            <img src="images/satis_icon_03.png" alt="만족도조사 아이콘">
+                        </div>
+                        <div id="sub_ft_con">
+                            <form action="" id="satisfaction_assessment">
+                                <fieldset id="sat_1">
+                                    <legend>페이지 정보제공 만족도조사</legend>
+                                    <h2>이 페이지에에서 제공하는 정보에 만족하십니까?</h2>
+                                    <input type="radio" name="satisfaction" id="satisfaction_100">
+                                    <label for="satisfaction_100">매우 만족</label>
+                                    <input type="radio" name="satisfaction" id="satisfaction_80">
+                                    <label for="satisfaction_80">만족</label>
+                                    <input type="radio" name="satisfaction" id="satisfaction_50">
+                                    <label for="satisfaction_50">보통</label>
+                                    <input type="radio" name="satisfaction" id="satisfaction_30">
+                                    <label for="satisfaction_30">불만족</label>
+                                    <input type="radio" name="satisfaction" id="satisfaction_10">
+                                    <label for="satisfaction_10">매우 불만족</label>
+                                </fieldset>
+                                <fieldset id="sat_2">
+                                    <label for="assessment"><input type="text" value="" id="assessment"></label>
+                                    <input type="submit" value="평가하기" id="ass_button">
+                                </fieldset>
+                            </form>
+                        </div>
+                    </footer>
+                </article>
+            </main>
+        </div>
+    </div>
+    <footer id="ft">
+        <div id="ft_nav">
+            <div id="ftn_title">
+                <h4>배너모음</h4>
+                <button id="ft_prev"><img src="images/prev3.png" alt="이전"></button>
+                <button id="ft_next"><img src="images/next3.png" alt="다음"></button>
+            </div>
+            <div id="ftn_wrap">
+                <ul id="ftn_wrap_list">
+                    <li><a href="#">
+                        <img src="images/banner_con1.jpg" alt="배너모음1">
+                    </a></li>
+                    <li><a href="#">
+                        <img src="images/banner_con2.jpg" alt="배너모음2">
+                    </a></li>
+                    <li><a href="#">
+                        <img src="images/banner_con3.jpg" alt="배너모음3">
+                    </a></li>
+                    <li><a href="#">
+                        <img src="images/banner_con4.jpg" alt="배너모음4">
+                    </a></li>
+                    <li><a href="#">
+                        <img src="images/banner_con5.jpg" alt="배너모음5">
+                    </a></li>
+                    <li><a href="#">
+                        <img src="images/banner_con6.png" alt="배너모음6">
+                    </a></li>
+                    <li><a href="#">
+                        <img src="images/banner_con7.png" alt="배너모음7">
+                    </a></li>
+                    <li><a href="#">
+                        <img src="images/banner_con8.png" alt="배너모음8">
+                    </a></li>
+                    <li><a href="#">
+                        <img src="images/banner_con9.png" alt="배너모음9">
+                    </a></li>
+                    <li><a href="#">
+                        <img src="images/banner_con10.jpg" alt="배너모음10">
+                    </a></li>
+                    <li><a href="#">
+                        <img src="images/banner_con11.jpg" alt="배너모음11">
+                    </a></li>
+                    <li><a href="#">
+                        <img src="images/banner_con12.jpg" alt="배너모음12">
+                    </a></li>
+                    <li><a href="#">
+                        <img src="images/banner_con13.jpg" alt="배너모음13">
+                    </a></li>
+                    <li><a href="#">
+                        <img src="images/banner_con14.jpg" alt="배너모음14">
+                    </a></li>
+                    <li><a href="#">
+                        <img src="images/banner_con15.jpg" alt="배너모음15">
+                    </a></li>
+                    <li><a href="#">
+                        <img src="images/banner_con16.jpg" alt="배너모음16">
+                    </a></li>
+                    <li><a href="#">
+                        <img src="images/banner_con17.jpg" alt="배너모음17">
+                    </a></li>
+                    <li><a href="#">
+                        <img src="images/banner_con18.jpg" alt="배너모음18">
+                    </a></li>
+                    <li><a href="#">
+                        <img src="images/banner_con19.jpg" alt="배너모음19">
+                    </a></li>
+                    <li><a href="#">
+                        <img src="images/banner_con20.jpg" alt="배너모음20">
+                    </a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="ft_con">
+            <div id="ftc_wrap">
+                <img src="images/ft_logo.png" alt="광양시로고" id="ft_logo">
+                <div id="ft_menu">
+                    <ul>
+                        <li><a href="#">개인정보처리방침</a></li>
+                        <li><a href="#">이메일무단수집거부</a></li>
+                        <li><a href="#">저작권정책</a></li>
+                        <li><a href="#">찾아오시는길</a></li>
+                        <li><a href="#">부서별전화(FAX)번호</a></li>
+                    </ul>
+                    <!-- <span></span> -->
+                    <ul>
+                        <li>[우편번호 57785] 전라남도 광양시 시청로 33(중동) / </li>
+                        <li>대표전화 : 061)797-2114 / </li>
+                        <li>팩스 : 061)797-2598</li>
+                        <li>Copyright © 2016 GWANGYANG CITY. All Right Reserved</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

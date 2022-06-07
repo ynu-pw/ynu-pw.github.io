@@ -1,0 +1,461 @@
+@font-face {
+    font-family: 'GmarketSansLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'LeferiPoint-BlackA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-BlackA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    background: #f9f8ff;
+}
+/* #nav {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    right: 70px;
+    list-style: none;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 100;
+    transition: all 0.3s;
+}
+#nav > li > a {
+    display: block;
+    width: 10px;
+    height: 50px;
+    background: #ccc;
+}
+#nav > li > a.on{
+    background: #fa4f57;
+    cursor: pointer;
+}
+#nav > li > a:hover {
+    background: #fcf;
+} */
+.navbar {
+    position: fixed;
+    top: 50%; right: 30px;
+    transform: translateY(-50%);
+    z-index: 1000;
+}
+.navbar > ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.navbar > ul > li {
+    width: 200px;
+    position: relative;
+    text-align: right;
+}
+.navbar > ul > li .dot {
+    color: #fff;
+    display: block;
+    padding: 5px 0;
+}
+.navbar > ul > li .dot span {
+    display: inline-block;
+    background: #fa4f57;
+    letter-spacing: 1px;
+    padding: 10px 25px;
+    margin-right: 30px;
+    border-radius: 5px;
+    transform: translateX(30px);
+    opacity: 0;
+}
+.navbar > ul > li:hover .dot span {
+    transform: translateX(0px);
+    opacity: 1;
+}
+.navbar > ul > li .dot span::before {
+    content: "";
+    position: absolute;
+    top: 50%; right: 0;
+    transform: translate(7px, -50%);
+    border-left: 7px solid #fa4f57;
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    display: block;
+}
+
+.navbar > ul > li .dot::before,
+.navbar > ul > li .dot::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    border-radius: 50%;
+    display: block;
+    transition: .2s ease-out;
+}
+.navbar > ul > li .dot::before {
+    height: 5px;
+    width: 5px;
+    border: 2px solid #333;
+    right: 0;
+    transform: translateY(-50%);
+}
+.navbar > ul > li .dot.active::before,
+.navbar > ul > li:hover .dot::before{
+    border-color: #fa4f57;
+    background: #fa4f57;
+}
+.navbar > ul > li .dot::after {
+    height: 15px;
+    width: 15px;
+    border: 2px solid #fa4f57;
+    right: -5px;
+    transform: translateY(-50%) scale(0);
+}
+.navbar > ul > li .dot.active::after,
+.navbar > ul > li:hover .dot::after{
+    transform: translateY(-50%) scale(1);
+}
+
+
+#main_panel {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: #5c42e4;
+}
+.panel {
+    height: 100%;
+    position: relative;
+}
+#port {
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    width: 100%; height: 100%;
+    background-image: url(../images/original/portfolio_02.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center bottom;
+    z-index: 2;
+}
+#rec {
+    position: relative;
+    width: 930px; height: 600px;
+    top: 25%; left: 20%;
+    background: #251a5c;
+    border-radius: 30px;
+}
+h1 {
+    font-size: 7.1em;
+    font-family: 'LeferiPoint-BlackA';
+    color: #fff;
+    position: absolute;
+    top: -125px; left: -140px;
+    line-height: 130px;
+}
+#text {
+    position: absolute;
+    top: 130px; left: -122px;
+}
+#circle1 {
+    position: absolute;
+    top: -100px; left: 576px;
+    width: 310px; height: 310px;
+    background: #00e7d7;
+    opacity: 22%;
+    border-radius: 50%;
+}
+#circle2 {
+    position: absolute;
+    top: 32px; left: 733px;
+    width: 420px; height: 420px;
+    background: #e6e6e6;
+    opacity: 30%;
+    border-radius: 50%;
+}
+.page {
+    height: 100%;
+    position: relative;
+}
+.pg_box {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50px;
+    width: 1350px; height: 680px;
+    box-shadow: 5px 29px 35px 8px rgba(0,0,0,0.18);
+    border: 18px solid #ffffff;
+    background: #f9f8ff;
+}
+.pro > ul {
+    padding: 125.5px 190px 125.5px 190px;
+    width: 970px;
+}
+.pro > ul > li {
+    float: left;
+}
+#profile {
+    box-sizing: border-box;
+    margin-left: 70px;
+}
+#profile > ul > li {
+    margin-bottom: 15px;
+}
+#info > h2 {
+    font-family: 'GmarketSansMedium';
+    color: #5c42e4;
+    font-size: 50px;
+}
+#edu > h3, #skill > ul > h3 {
+    font-family: 'GmarketSansMedium';
+    color: #5c42e4;
+    font-size: 20px;
+    line-height: 30px;
+}
+.pro_text > li {
+    font-family: 'GmarketSansLight';
+    color: #5c42e4;
+    font-size: 18px;
+    line-height: 28px;
+}
+#skill > ul {
+    float: left;
+}
+#skill > ul > h3 {
+    margin-bottom: 10px;
+}
+#skill > ul:not(:last-child) {
+    margin-right: 80px;
+}
+#skill > ul > li {
+    padding-right: 40px;
+    margin-bottom: 8px;
+}
+#container {
+    width: 100%; 
+    height: 100%;
+}
+#container > section {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+.sec_box {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1350px; height: 650px;
+    border: 18px solid #fff;
+    background: #f9f8ff;
+    box-shadow: 5px 29px 35px 8px rgba(0,0,0,0.18);
+    border-radius: 50px;
+    /* z-index: 999; */
+}
+.sec_box > h2 {
+    font-family: 'GmarketSansMedium';
+    position: absolute;
+    top: -93px; left: -135px;
+    font-size: 50px;
+    color: #a797f9;
+}
+.sec_box > div {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+}
+.mac > img {
+    position: relative;
+    width: 1000px; height: 570px;
+}
+#brsg {
+    width: 780px; height: 463px;
+    position: absolute;
+    top: 24px; left: 110px;
+    background-image: url(../images/brsg03_03.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center top;
+    transition: background-position 8s;
+}
+#gwang {
+    width: 780px; height: 463px;
+    position: absolute;
+    top: 24px; left: 110px;
+    background-image: url(../images/gwangyang.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center top;
+    transition: background-position 5s;
+}
+#pascu {
+    width: 780px; height: 463px;
+    position: absolute;
+    top: 24px; left: 110px;
+    background-image: url(../images/pascucci.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center top;
+    transition: background-position 10s;
+}
+#brsg:hover {
+    background-position: center bottom;
+    cursor: pointer;
+}
+#gwang:hover {
+    background-position: center bottom;
+    cursor: pointer;
+}
+#pascu:hover {
+    background-position: center bottom;
+    cursor: pointer;
+}
+
+#graphic {
+    position: relative;
+    width: 100%;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    height: 720px;
+    margin-top: 30px;
+}
+#graphic > h2 {
+    font-family: 'GmarketSansMedium';
+    position: absolute;
+    top: -80px; left: 140px;
+    font-size: 50px;
+    color: #a797f9;
+    visibility: visible;
+}
+#artwork {
+    position: relative;
+    width:200%;
+    left: -25%;
+}
+#artwork::after {content: ""; display: block; clear: both;}
+#artwork > li {
+    float: left;
+    width: 25%;
+}
+#artwork > li > img {
+    display: block;
+    width: 92%;
+    margin: 3%;
+}
+#prev, #next {
+    width: 100px; height: 100px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    opacity: 0.2;
+    transition: 200ms;
+}
+#prev:hover, #next:hover {
+    opacity: 1;
+}
+#prev {
+    left: 21.7%;
+    background: url("../images/left_icon.png") no-repeat center;
+}
+#next {
+    right: 23%;
+    background: url("../images/right_icon.png") no-repeat center;
+}
+button > span {
+    display: none;
+}
+.pg_box > h2 {
+    font-family: 'GmarketSansMedium';
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%); 
+    font-size: 50px;
+    color: #5c42e4;
+}
+.popup {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    width: 1200px; height: 500px;
+    border: 18px solid #fff;
+    background: #f9f8ff;
+    border-radius: 50px;
+    box-shadow: 5px 29px 35px 8px rgba(0,0,0,0.18);
+}
+.popup > dl {
+    margin: 100px 200px auto;
+}
+.popup > dl > dt {
+    font-family: 'GmarketSansMedium';
+    font-size: 50px;
+    color: #a797f9;
+    margin-bottom: 40px;
+}
+.popup > dl > dd {
+    font-family: 'GmarketSansLight';
+    font-size: 35px;
+    color: #a797f9;
+    line-height: 40px;
+}
+.popup > a {
+    display: block;
+    font-family: 'GmarketSansMedium';
+    font-size: 25px;
+    text-align: center;
+    line-height: 75px;
+    color: #a797f9;
+    margin: 40px 200px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 300px; height: 75px;
+    border-radius: 50px;
+    border: 5px solid #5c42e4;
+}
+.brsg_modal {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(41, 30, 103, 0.75);
+    display: none;
+}
+.gwang_modal {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(41, 30, 103, 0.75);
+    display: none;
+}
+.pascu_modal {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(41, 30, 103, 0.75);
+    display: none;
+}
+.modal:hover {
+    cursor: pointer;
+}
