@@ -190,9 +190,9 @@ header {
 }
 
 .sub_menu {
-    margin-left: 443px;
+    width: 1220px;
+    margin-left: 440px;
     background-color: #fff;
-    padding-right: 260px;
     height: 470px;
 }
 .sub_menu::after {
@@ -698,11 +698,7 @@ main > #notice {
 #ntc_btn_li > [data-target="#notice_tab4"] > a {
     border-radius: 0 17px 0 0;
 }
-/* #ntc_btn_li > li > a.on {
-    background-color: #fff;
-    color: #005596;
-    border-bottom: 0;
-} */
+
 #ntc_btn_li > li.on {
     background-color: #fff;
     color: #005596;
@@ -858,30 +854,31 @@ main > #notice {
 }
 #n_prev > a {
     display: block;
-    width: 10px; height: 38px;
+    width: 12px; height: 38px;
     background-image: url(../images/prev1.png);
-    background-position: 0 50%;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
 #n_pause > a {
     display: block;
-    width: 12px; height: 38px;
+    width: 16px; height: 38px;
     background-image: url(../images/pause.png);
-    background-position: 0 50%;
+    background-position: center;
     background-repeat: no-repeat;
 }
 #n_pause > a.pause_on {
     width: 16px; height: 21px;
     margin-top: 8px;
     background-image: url(../images/play.png);
+    background-position: center;
     background-repeat: no-repeat;
 }
 #n_next > a  {
     display: block;
-    width: 16px; height: 38px;
+    width: 12px; height: 38px;
     background-image: url(../images/next1.png);
-    background-position: 0 50%;
+    background-position: center;
     background-repeat: no-repeat;
 }
 #news_container > #news, #alarm, #culture {
@@ -961,29 +958,30 @@ main > #notice {
 }
 .ti_alarm > ul > #prev > a {
     display: block;
-    width: 10px; height: 38px;
+    width: 12px; height: 38px;
     background-image: url(../images/prev1.png);
-    background-position: 0 50%;
+    background-position: center;
     background-repeat: no-repeat;
 }
 .ti_alarm > ul > #pause > a {
     display: block;
-    width: 12px; height: 38px;
+    width: 16px; height: 38px;
     background-image: url(../images/pause.png);
-    background-position: 0 50%;
+    background-position: center;
     background-repeat: no-repeat;
 }
 .ti_alarm > ul > #pause > a.pause_on1 {
     width: 16px; height: 21px;
     margin-top: 8px;
     background-image: url(../images/play.png);
+    background-position: center;
     background-repeat: no-repeat;
 }
 .ti_alarm > ul > #next > a {
     display: block;
-    width: 10px; height: 38px;
+    width: 12px; height: 38px;
     background-image: url(../images/next1.png);
-    background-position: 0 50%;
+    background-position: center;
     background-repeat: no-repeat;
 }
 #alarm_card {
@@ -1018,27 +1016,28 @@ main > #notice {
     display: block;
     width: 12px; height: 38px;
     background-image: url(../images/prev1.png);
-    background-position: 0 50%;
+    background-position: center;
     background-repeat: no-repeat;
 }
 .ti_culture > ul > #pause1 > a {
     display: block;
-    width: 12px; height: 38px;
+    width: 16px; height: 38px;
     background-image: url(../images/pause.png);
-    background-position: 0 50%;
+    background-position: center;
     background-repeat: no-repeat;
 }
 .ti_culture > ul > #pause1 > a.pause_on2 {
     width: 16px; height: 21px;
     margin-top: 8px;
     background-image: url(../images/play.png);
+    background-position: center;
     background-repeat: no-repeat;
 }
 .ti_culture > ul > #next1 > a {
     display: block;
     width: 12px; height: 38px;
     background-image: url(../images/next1.png);
-    background-position: 0 50%;
+    background-position: center;
     background-repeat: no-repeat;
 }
 #cul_day {
