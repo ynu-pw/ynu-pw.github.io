@@ -191,9 +191,9 @@ html, body {
 }
 
 .sub_menu {
-    margin-left: 443px;
+    width: 1220px;
+    margin-left: 440px;
     background-color: #fff;
-    padding-right: 260px;
     height: 470px;
 }
 .sub_menu::after {

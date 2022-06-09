@@ -8,10 +8,6 @@ $(function(){
     // var $subs = $(".sub");
     // var $sub1_menu = $("#sub1_menu");
     // var $sub1 = $("#sub1");
-
-    $nav_menu_a.on("click", function(event) {
-        event.preventDefault();
-    });
     
      /* $nav_menu.on("click", function() {
          if($(this).find(".sub").hasClass("active")) {
@@ -22,6 +18,7 @@ $(function(){
                 .addClass("active");
          }
      }); */
+
      $nav_menu.on('mouseover',function(){
         $(this).find('.sub').stop(true).slideDown();
     })
