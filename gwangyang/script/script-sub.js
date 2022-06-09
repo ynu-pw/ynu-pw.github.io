@@ -3,21 +3,8 @@ $(function() {
     //--------------------------헤더 네비영역-----------------------------------------
 
     var $nav_menu = $("#nav_wrap > ul > li");
-    // var $nav = $("#nav_wrap");
     var $nav_menu_a = $("#nav_wrap > ul > li > a");
-    // var $subs = $(".sub");
-    // var $sub1_menu = $("#sub1_menu");
-    // var $sub1 = $("#sub1");
     
-     /* $nav_menu.on("click", function() {
-         if($(this).find(".sub").hasClass("active")) {
-             $(this).find(".sub").fadeOut().removeClass("active");
-         }else {
-             $nav_menu.find(".sub").fadeOut().removeClass("active");
-             $(this).find(".sub").fadeIn()
-                .addClass("active");
-         }
-     }); */
      $nav_menu.on('mouseover',function(){
         $(this).find('.sub').stop(true).slideDown();
     })
